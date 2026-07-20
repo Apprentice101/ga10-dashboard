@@ -1,0 +1,1064 @@
+{
+  "version": "1",
+  "dataAsOf": "2026-07-20",
+  "updatedAt": "2026-07-20T22:35:04.413Z",
+  "exportedAt": "2026-07-20T22:35:52.934Z",
+  "districtCode": "GA-10",
+  "data": {
+    "DISTRICT": {
+      "id": "ga-10",
+      "districtNumber": "GA-10",
+      "districtName": "Georgia's 10th Congressional District",
+      "state": "Georgia",
+      "counties": [
+        "Barrow",
+        "Butts",
+        "Clarke (Athens-Clarke)",
+        "Elbert",
+        "Franklin",
+        "Greene",
+        "Gwinnett (part — Dacula area)",
+        "Hancock (part — Sparta)",
+        "Hart",
+        "Henry (part — Heron Bay, Locust Grove, part of McDonough and Stockbridge)",
+        "Jasper (part — Monticello, Shady Dale)",
+        "Madison",
+        "Morgan",
+        "Newton (part — Mansfield, Newborn)",
+        "Oconee",
+        "Oglethorpe",
+        "Putnam (part — Crooked Creek, Eatonton)",
+        "Taliaferro (part — Crawfordville, Sharon)",
+        "Walton",
+        "Wilkes (part — Rayle, Tignall)"
+      ],
+      "majorPlaces": [
+        "Athens",
+        "Watkinsville",
+        "Winder",
+        "Monroe",
+        "Eatonton",
+        "Jackson",
+        "Washington"
+      ],
+      "cycleYear": 2026,
+      "population": 835755,
+      "registeredVoters": null,
+      "partyRegistration": null,
+      "previousResult": null,
+      "boundaryConfidence": "unconfirmed",
+      "electorateConfidence": "unconfirmed",
+      "newsDiscoveryHints": {
+        "geographicHint": "GA-10 is a mixed news market: Athens-Clarke County (home to UGA) has strong coverage from the Athens Banner-Herald, The Red & Black, and WUGA, while ~17 rural counties in the district have no dedicated daily press. For county-specific stories, statewide outlets (AJC, Georgia Recorder, GPB) plus the Oconee County Observations civic-watchdog blog are the most reliable sources.",
+        "preferredOutlets": [
+          "Athens Banner-Herald",
+          "OnlineAthens",
+          "The Red & Black",
+          "WUGA",
+          "Georgia Public Broadcasting",
+          "Atlanta Journal-Constitution",
+          "Georgia Recorder",
+          "The Current",
+          "WABE",
+          "WSB-TV",
+          "The Covington News",
+          "Oconee County Observations"
+        ]
+      }
+    },
+    "SOURCES": {
+      "src-ga-sos-elections": {
+        "id": "src-ga-sos-elections",
+        "name": "Georgia Secretary of State — Elections Division",
+        "short": "GA SOS Elections",
+        "url": "https://sos.ga.gov/elections-division-georgia-secretary-states-office",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
+      },
+      "src-ga-general-2026": {
+        "id": "src-ga-general-2026",
+        "name": "Georgia.gov — 2026 General Election page",
+        "short": "GA.gov General 2026",
+        "url": "https://georgia.gov/georgia-general-election-2026",
+        "publisher": "State of Georgia",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
+      },
+      "src-ga-register": {
+        "id": "src-ga-register",
+        "name": "Georgia — Online Voter Registration",
+        "short": "GA Register",
+        "url": "https://registertovote.sos.ga.gov",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed"
+      },
+      "src-ga-my-voter-page": {
+        "id": "src-ga-my-voter-page",
+        "name": "Georgia — My Voter Page (mvp.sos.ga.gov)",
+        "short": "GA My Voter Page",
+        "url": "https://mvp.sos.ga.gov",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Central hub for GA-10 voters: registration status, polling place, sample ballot, absentee status, and county-approved drop box locations."
+      },
+      "src-ga-absentee-tracker": {
+        "id": "src-ga-absentee-tracker",
+        "name": "Georgia — Secure My Absentee Ballot (tracker)",
+        "short": "GA Absentee Tracker",
+        "url": "https://securemyabsenteeballot.sos.ga.gov",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed"
+      },
+      "src-ga-voter-id-guide": {
+        "id": "src-ga-voter-id-guide",
+        "name": "Georgia SOS — Voter ID Requirements How-To Guide",
+        "short": "GA Voter ID Guide",
+        "url": "https://sos.ga.gov/how-to-guide/how-guide-voter-id-requirements",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "NEEDS REVIEW: exact live URL not independently re-fetched this pass; SOS elections hub is a reliable fallback."
+      },
+      "src-ga-results": {
+        "id": "src-ga-results",
+        "name": "Georgia — Election Results Portal",
+        "short": "GA Results",
+        "url": "https://results.sos.ga.gov",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "NEEDS REVIEW: exact live results-night domain not independently re-verified this pass; SOS elections hub links to results."
+      },
+      "src-ga-legis-redistricting": {
+        "id": "src-ga-legis-redistricting",
+        "name": "Georgia General Assembly — Reapportionment Office",
+        "short": "GA Reapportionment",
+        "url": "https://www.legis.ga.gov/joint-office/reapportionment",
+        "publisher": "Georgia General Assembly",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
+      },
+      "src-ga-sb202": {
+        "id": "src-ga-sb202",
+        "name": "Georgia SB 202 (2021) — Election Integrity Act",
+        "short": "GA SB 202",
+        "url": "https://www.legis.ga.gov/legislation/59827",
+        "publisher": "Georgia General Assembly",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
+      },
+      "src-ga-sb189": {
+        "id": "src-ga-sb189",
+        "name": "Georgia SB 189 (2024) — Ballot Tabulation / QR Code Elimination",
+        "short": "GA SB 189",
+        "url": "https://www.legis.ga.gov/legislation/65069",
+        "publisher": "Georgia General Assembly",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026. As of July 20, 2026, tabulation-method guidance for the Nov 3 general remains contested between SOS and State Election Board — see NEWS items."
+      },
+      "src-ga-ocga-21-2-381": {
+        "id": "src-ga-ocga-21-2-381",
+        "name": "O.C.G.A. § 21-2-381 — Absentee ballot applications",
+        "short": "OCGA 21-2-381",
+        "url": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-10/section-21-2-381/",
+        "publisher": "State of Georgia (via Justia)",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Absentee ballot applications open 78 days before an election under SB 202."
+      },
+      "src-ga-ocga-21-2-499": {
+        "id": "src-ga-ocga-21-2-499",
+        "name": "O.C.G.A. § 21-2-499 — Certification of general election results",
+        "short": "OCGA 21-2-499",
+        "url": "https://campaignlegal.org/update/can-georgias-election-board-refuse-certify-results-law-says-no",
+        "publisher": "Campaign Legal Center (citing statute)",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "State certification deadline: 5 PM on the 17th day following the election (Nov 20, 2026 for Nov 3 general). Independent legal analysis; NEEDS REVIEW against the live O.C.G.A. text."
+      },
+      "src-accgov-elections": {
+        "id": "src-accgov-elections",
+        "name": "Athens-Clarke County — Elections Department",
+        "short": "Clarke Elections",
+        "url": "https://www.accgov.com/160/Elections-Department",
+        "publisher": "Athens-Clarke County",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "GA-10's largest county by population. Drop box inside the elections office, available only during early-voting hours; multiple early-voting sites including UGA Tate Student Center."
+      },
+      "src-oconee-elections": {
+        "id": "src-oconee-elections",
+        "name": "Oconee County — Elections & Registration",
+        "short": "Oconee Elections",
+        "url": "https://www.oconeecountyga.gov/1463/Elections-Registration",
+        "publisher": "Oconee County",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Director: Sharon Gregg. Active State Election Board complaint (qualifying-date practice) referred to Georgia AG in Feb 2026; ran June 16 runoff with a single 5-day early-voting period."
+      },
+      "src-barrow-elections": {
+        "id": "src-barrow-elections",
+        "name": "Barrow County — Elections & Voter Registration",
+        "short": "Barrow Elections",
+        "url": "https://barrowga.org/215/Elections-Voter-Registration",
+        "publisher": "Barrow County",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Winder-based; drop box co-located at elections HQ."
+      },
+      "src-walton-elections": {
+        "id": "src-walton-elections",
+        "name": "Walton County — Board of Elections",
+        "short": "Walton Elections",
+        "url": "https://www.waltoncountyga.gov/331/Board-of-Elections",
+        "publisher": "Walton County",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Three advance-voting sites: South Walton Community Center (Social Circle), Felker Community Center (Monroe), Meridian Park (Loganville)."
+      },
+      "src-fvap-ga": {
+        "id": "src-fvap-ga",
+        "name": "FVAP — Georgia County Election Offices Directory",
+        "short": "FVAP GA Offices",
+        "url": "https://www.fvap.gov/xml-api/Georgia/election-offices.xml",
+        "publisher": "Federal Voting Assistance Program",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Aggregated official-county contact data for all 20 GA-10 counties (12 whole + 8 partial). Use for cross-checking phone numbers and addresses; individual county URLs preferred where available."
+      },
+      "src-ajc-open-seat": {
+        "id": "src-ajc-open-seat",
+        "name": "AJC — GA-10 open seat: Trump support faces test",
+        "short": "AJC GA-10 Primary",
+        "url": "https://www.ajc.com/politics/2026/04/us-house-district-10-trump-support-faces-test-in-race-to-replace-collins/",
+        "publisher": "Atlanta Journal-Constitution",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed"
+      },
+      "src-wsb-collins-senate": {
+        "id": "src-wsb-collins-senate",
+        "name": "WSB-TV — Collins wins GOP Senate runoff (June 16, 2026)",
+        "short": "WSB Collins Runoff",
+        "url": "https://www.wsbtv.com/news/local/atlanta/rep-mike-collins-wins-us-senate-runoff-will-face-sen-jon-ossoff-november/SX6RCZ2ZU5A67G5MB5C6HMRCHY/",
+        "publisher": "WSB-TV",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed"
+      },
+      "src-usa-today-ga-primary": {
+        "id": "src-usa-today-ga-primary",
+        "name": "USA Today — Georgia primary results (May 19, 2026)",
+        "short": "USA Today GA Primary",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/05/20/georgia-primary-election-results-house-senate-governor/90077124007/",
+        "publisher": "USA Today",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Confirms Pam DeLancy won the D primary with 54.4% of ~99% reported."
+      },
+      "src-oconee-observations-complaint": {
+        "id": "src-oconee-observations-complaint",
+        "name": "Oconee County Observations — SEB complaint referred to AG (Feb 27, 2026)",
+        "short": "Oconee Obs SEB",
+        "url": "https://www.oconeecountyobservations.org/2026/02/state-election-board-sends-complaint.html",
+        "publisher": "Oconee County Observations (Lee Becker)",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "Civic-watchdog blog covering Oconee County BOE meetings; effectively fills a local-news gap for that county."
+      },
+      "src-ajc-qr-code-crisis": {
+        "id": "src-ajc-qr-code-crisis",
+        "name": "AJC — GA officials have no idea how to run elections after July (Apr 13, 2026)",
+        "short": "AJC QR Crisis",
+        "url": "https://www.ajc.com/politics/2026/04/georgia-election-officials-have-no-idea-how-to-run-elections-after-july/",
+        "publisher": "Atlanta Journal-Constitution",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed"
+      },
+      "src-georgia-recorder-hand-marked": {
+        "id": "src-georgia-recorder-hand-marked",
+        "name": "Georgia Recorder — SEB resolution on hand-marked ballots (June 4, 2026)",
+        "short": "GA Recorder Hand-Marked",
+        "url": "https://georgiarecorder.com/2026/06/04/state-election-board-passes-resolution-allowing-counties-to-switch-to-hand-marked-ballots/",
+        "publisher": "Georgia Recorder",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed"
+      },
+      "src-gpb-seb-rules": {
+        "id": "src-gpb-seb-rules",
+        "name": "Georgia Public Broadcasting — SEB adopts new rules (July 9, 2026)",
+        "short": "GPB SEB Rules",
+        "url": "https://www.gpb.org/news/2026/07/09/georgia-election-board-adopts-new-rules-targeting-election-mistrust",
+        "publisher": "Georgia Public Broadcasting",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed"
+      },
+      "src-wuga-elections-prep": {
+        "id": "src-wuga-elections-prep",
+        "name": "WUGA — ACC Board of Elections gets ready for midterms (July 8, 2026)",
+        "short": "WUGA ACC Prep",
+        "url": "https://www.wuga.org/local-news/2026-07-08/acc-board-of-elections-is-getting-ready-for-midterms",
+        "publisher": "WUGA (UGA/GPB affiliate)",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed"
+      },
+      "src-ballotpedia-ga10": {
+        "id": "src-ballotpedia-ga10",
+        "name": "Ballotpedia — Georgia's 10th Congressional District",
+        "short": "Ballotpedia GA-10",
+        "url": "https://ballotpedia.org/Georgia's_10th_Congressional_District",
+        "publisher": "Ballotpedia",
+        "sourceType": "secondary",
+        "hierarchyLevel": 7,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "County-list corroboration only. NEEDS REVIEW against the official GA General Assembly reapportionment PDF for the 2023 remedial map."
+      },
+      "src-wikipedia-ga10": {
+        "id": "src-wikipedia-ga10",
+        "name": "Wikipedia — Georgia's 10th congressional district",
+        "short": "Wikipedia GA-10",
+        "url": "https://en.wikipedia.org/wiki/Georgia's_10th_congressional_district",
+        "publisher": "Wikipedia",
+        "sourceType": "secondary",
+        "hierarchyLevel": 7,
+        "dateAccessed": "2026-07-20",
+        "lastVerified": "2026-07-20",
+        "confidence": "unconfirmed",
+        "notes": "2020 census population 775,012; 2024 estimate 835,755; Cook PVI R+11; 56.03% urban / 43.97% rural. Used only for corroboration."
+      }
+    },
+    "ELECTION_EVENTS": [
+      {
+        "id": "evt-ga10-primary-day",
+        "milestone": "Primary election day (completed)",
+        "electionType": "primary",
+        "date": "2026-05-19",
+        "significance": "Georgia's 2026 statewide primary. GA-10 open seat produced two nominees: Houston Gaines (R, state Rep., Trump-endorsed) and Pamela DeLancy (D, retired Army nurse colonel, 54.4% of the D vote).",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceIds": [
+          "src-usa-today-ga-primary",
+          "src-ajc-open-seat"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-07-20",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga10-primary-runoff-day",
+        "milestone": "Primary runoff day (completed — not applicable to GA-10 House race)",
+        "electionType": "primary",
+        "date": "2026-06-16",
+        "significance": "Statewide primary runoff (used by the U.S. Senate GOP race that Mike Collins won). GA-10's U.S. House primaries produced majority winners on May 19 and did NOT go to runoff. Included here as calendar context since Oconee County ran a limited 5-day early-voting period for this statewide date.",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceIds": [
+          "src-wsb-collins-senate"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-07-20",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga10-general-reg-deadline",
+        "milestone": "Voter registration deadline — general",
+        "electionType": "general",
+        "date": "2026-10-05",
+        "significance": "Last day to register to vote for the November 3, 2026 general election (29 days before Election Day). NEEDS REVIEW: exact hour-of-day cutoff not independently re-confirmed against the live Georgia SOS calendar.",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ga-general-2026",
+          "src-ga-register"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga10-general-early-voting-open",
+        "milestone": "Early (in-person) voting opens — general",
+        "electionType": "general",
+        "date": "2026-10-13",
+        "significance": "Early in-person voting begins statewide, including all 20 GA-10 counties (12 whole + 8 partial). Mandatory Saturday voting hours on Oct 17 and Oct 24; counties may add additional Sunday hours. Note: official Georgia.gov calendar lists the start date as Oct 13 (Tuesday), not the commonly assumed Oct 12.",
+        "governingAuthority": "Georgia Secretary of State, county boards of elections",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ga-general-2026"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga10-general-absentee-request-deadline",
+        "milestone": "Absentee ballot request deadline — general",
+        "electionType": "general",
+        "date": "2026-10-23",
+        "significance": "Deadline to request an absentee ballot for the November 3, 2026 general election (11 days before Election Day, per SB 202). Absentee ballot requests open approximately 78 days before Election Day (late summer 2026), per O.C.G.A. § 21-2-381.",
+        "governingAuthority": "Georgia Secretary of State, county boards of elections",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ga-sb202",
+          "src-ga-ocga-21-2-381"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga10-general-early-voting-close",
+        "milestone": "Early (in-person) voting closes — general",
+        "electionType": "general",
+        "date": "2026-10-30",
+        "significance": "Last day of early in-person voting ahead of the November 3, 2026 general election.",
+        "governingAuthority": "Georgia Secretary of State, county boards of elections",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ga-general-2026"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga10-general-day",
+        "milestone": "General election day",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "U.S. midterm general election. GA-10 open seat: Houston Gaines (R) vs. Pamela DeLancy (D). Incumbent Mike Collins (R) vacated the seat to run for U.S. Senate (won the GOP runoff June 16, faces Jon Ossoff in November). District rated Solid/Safe R (Cook PVI R+11).",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ga-general-2026",
+          "src-ajc-open-seat",
+          "src-wsb-collins-senate"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-07-20",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga10-general-county-cert",
+        "milestone": "County certification deadline",
+        "electionType": "general",
+        "date": "2026-11-09",
+        "significance": "County boards of elections must certify results by 5 PM on the Monday following the election, per O.C.G.A. §§ 21-2-493(k) and 21-2-497.",
+        "governingAuthority": "County boards of elections",
+        "sourceIds": [
+          "src-ga-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga10-general-state-cert",
+        "milestone": "State certification deadline (SOS)",
+        "electionType": "general",
+        "date": "2026-11-20",
+        "significance": "Secretary of State must certify statewide results by 5 PM on the 17th day following the election, per O.C.G.A. § 21-2-499(b). NEEDS REVIEW: differs from a commonly assumed Nov 17 date; confirm against SOS's published 2026 calendar.",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceIds": [
+          "src-ga-ocga-21-2-499"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga10-general-runoff-day",
+        "milestone": "General election runoff (if triggered)",
+        "electionType": "general",
+        "date": "2026-12-01",
+        "significance": "Georgia requires a runoff if no candidate receives 50%+1 of the vote. Not expected to be triggered in GA-10 given the two-candidate general-election field (Gaines vs. DeLancy). Runoff early voting Nov 23-25 (abbreviated due to Thanksgiving).",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ga-general-2026"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "status": "estimated"
+      }
+    ],
+    "RULES": [
+      {
+        "id": "rule-ga-photo-id",
+        "topic": "Voter photo ID requirements",
+        "currentRule": "Georgia requires photo ID to vote in person: driver's license, state ID, U.S. passport, military ID, tribal ID, or a free Voter ID card issued by the county registrar. Absentee ballot applications and return envelopes require an ID number (driver's license/state ID number or last four digits of SSN), per SB 202 (2021).",
+        "status": "active",
+        "whyItMatters": "GA-10 voters across all 20 counties (12 whole + 8 partial) must present qualifying photo ID at the polls, and absentee voters must provide an ID number on both their application and return envelope. Voters lacking ID can obtain a free Voter ID card from their county registrar.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-voter-id-guide",
+          "src-ga-sb202"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: full current-cycle citation to the Georgia SOS voter-ID page was not independently re-fetched this research pass; verify exact accepted-ID list against sos.ga.gov before publishing."
+      },
+      {
+        "id": "rule-ga-absentee-request-window",
+        "topic": "Absentee ballot request window (SB 202)",
+        "currentRule": "Absentee ballot requests open approximately 78 days before Election Day and must be submitted no later than 11 days before Election Day (Oct. 23, 2026 for the Nov. 3 general). Still governed by SB 202 (2021), the Election Integrity Act.",
+        "status": "active",
+        "whyItMatters": "GA-10 voters who want to vote absentee must plan around a shorter request window than existed before 2021 — missing the 11-day cutoff means voting in person is the only remaining option.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-sb202",
+          "src-ga-ocga-21-2-381",
+          "src-ga-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "needsReview": true,
+        "detail": "SB 202 (2021), the Election Integrity Act. NEEDS REVIEW: exact hour-of-day cutoff for the 11-day request deadline not independently re-confirmed against a live SOS calendar document."
+      },
+      {
+        "id": "rule-ga-drop-box-restrictions",
+        "topic": "Ballot drop box restrictions (SB 202)",
+        "currentRule": "SB 202 (2021) restricts absentee ballot drop boxes to indoor locations at county election offices or early-voting sites, with reduced availability compared to 2020. Drop boxes are capped at roughly one per 100,000 registered voters (or one per site) in each county. GA-10 voters should check the My Voter Page (mvp.sos.ga.gov) for county-approved drop box locations.",
+        "status": "active",
+        "whyItMatters": "GA-10's mostly rural counties (Elbert, Franklin, Hart, Taliaferro, Wilkes, and others) may have zero or one drop box, typically inside the county elections office and available only during early-voting hours. Athens-Clarke, Oconee, Barrow, Walton, and Gwinnett (Dacula-area only) have confirmed drop boxes; several smaller GA-10 counties remain unverified.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-sb202",
+          "src-ga-my-voter-page"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "needsReview": true,
+        "detail": "SB 202 (2021). Drop-box availability could not be independently confirmed for Elbert, Franklin, Hart, Taliaferro, or Wilkes counties in the July 2026 research pass."
+      },
+      {
+        "id": "rule-ga-wrong-precinct-provisional",
+        "topic": "Wrong-precinct provisional ballot rule (SB 202)",
+        "currentRule": "Under SB 202, ballots cast at the wrong precinct on Election Day are not counted for precinct-specific races. Provisional ballots cast at the wrong precinct after 5:00 p.m. may be counted only for races the voter was otherwise eligible to vote in (e.g., federal and statewide races), not local down-ballot races tied to the correct precinct.",
+        "status": "active",
+        "whyItMatters": "GA-10 voters who show up at the wrong precinct on Election Day risk having some or all of their ballot rejected. This is especially important in the district's split counties (Gwinnett, Hancock, Henry, Jasper, Newton, Putnam, Taliaferro, Wilkes) where neighboring precincts may fall in a different congressional district. Voters should confirm their correct polling location via My Voter Page before Election Day.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-sb202"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "needsReview": true,
+        "detail": "SB 202 (2021), Election Integrity Act. Especially consequential in GA-10 due to the district's 8 partial counties."
+      },
+      {
+        "id": "rule-ga-sb189-ballot-tabulation",
+        "topic": "Elimination of QR-code ballot tabulation (SB 189) — statewide unresolved",
+        "currentRule": "SB 189 (2024) banned QR-code-based ballot tabulation effective July 1, 2026. As of the last research date (July 20, 2026), a statewide tabulation method for the November 3, 2026 general election was not fully resolved: the Secretary of State's office issued guidance directing counties to continue using touchscreen machines and post-process ballot images via OCR before certification, while the State Election Board passed a non-binding June 4 resolution permitting counties to switch to hand-marked paper ballots. The State Election Board also adopted new rules on July 9, 2026 prohibiting tabulation from electronic ballot copies and requiring public tabulation.",
+        "status": "watch",
+        "whyItMatters": "This is the top procedural risk factor for the GA-10 general election. Every GA-10 county's polling-place experience for November 2026 depends on how this is resolved — voters and poll workers may see a different ballot-marking and counting process than in 2022 or 2024. Track county-level announcements ahead of Election Day.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-sb189",
+          "src-ajc-qr-code-crisis",
+          "src-georgia-recorder-hand-marked",
+          "src-gpb-seb-rules"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "needsReview": true,
+        "detail": "SB 189 (2024), effective July 1, 2026. Guidance remains contested between SOS and State Election Board; each GA-10 county's chosen tabulation method should be reconfirmed closer to Election Day."
+      },
+      {
+        "id": "rule-ga-runoff-mechanics",
+        "topic": "General election runoff mechanics",
+        "currentRule": "Georgia requires a runoff election if no candidate in a general-election race receives more than 50% of the vote. If triggered, the runoff is held approximately four weeks later. For the 2026 general election, the runoff date is December 1, 2026, with abbreviated early voting Nov 23-25 (Thanksgiving week).",
+        "status": "watch",
+        "whyItMatters": "Not expected to apply in GA-10's U.S. House race given the clean two-candidate field (Gaines vs. DeLancy), which produces a majority winner in the first count. Still relevant context for GA-10 voters following the concurrent U.S. Senate general (Collins vs. Ossoff), which could plausibly go to a runoff.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ga-general-2026"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: exact statutory citation and hour-of-day cutoffs not independently re-confirmed this pass."
+      },
+      {
+        "id": "rule-ga-certification",
+        "topic": "Certification deadlines (county and state)",
+        "currentRule": "County boards of elections must certify by 5 PM on the Monday following Election Day (Nov 9, 2026 for the Nov 3 general), per O.C.G.A. §§ 21-2-493(k) and 21-2-497. The Secretary of State must certify statewide results by 5 PM on the 17th day following the election (Nov 20, 2026), per O.C.G.A. § 21-2-499(b).",
+        "status": "active",
+        "whyItMatters": "GA-10 voters concerned about post-election litigation or contested results should be aware of these firm deadlines. County-level certification refusals in 2024 prompted litigation; the certification duty is ministerial (non-discretionary) under Georgia law.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-ocga-21-2-499",
+          "src-ga-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: state certification date (Nov 20) computed from statute — differs from a commonly assumed Nov 17 date; cross-check against SOS's published 2026 calendar."
+      },
+      {
+        "id": "rule-ga-redistricting-stability",
+        "topic": "Congressional map stability for 2026 (2023 court-ordered plan)",
+        "currentRule": "GA-10 is administered under the 2023 court-ordered congressional map (adopted after the 2021 map was found to dilute Black voting power in the Atlanta area). In the 2023 redraw, GA-10 lost Jackson County to GA-09 and gained Franklin and Hart counties from GA-09. The Georgia legislature considered redrawing maps in a June 2026 special session but dropped those plans, leaving GA-10 unchanged for 2026.",
+        "status": "active",
+        "whyItMatters": "GA-10 voters can rely on the same district boundaries used in the 2024 election. No pending litigation was identified that threatens GA-10's map for the 2026 cycle. Voters in newly-added Franklin and Hart counties (added in 2023) should confirm their congressional district assignment via My Voter Page.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-legis-redistricting",
+          "src-ballotpedia-ga10"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-20",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: the specific enacted-plan PDF for the 2023 court-ordered congressional map should be independently re-fetched from legis.ga.gov and archived before publication."
+      }
+    ],
+    "RESOURCES": [
+      {
+        "id": "res-register",
+        "label": "Register to vote",
+        "description": "Georgia's official online voter registration portal. Confirm eligibility and deadlines for the November 3, 2026 general election (registration deadline: Oct 5, 2026).",
+        "url": "https://registertovote.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-register",
+        "lastVerified": "2026-07-20"
+      },
+      {
+        "id": "res-locations",
+        "label": "Find voting locations",
+        "description": "Georgia My Voter Page — find your polling place, early-voting location, and sample ballot. Especially important in GA-10's 8 split counties (Gwinnett, Hancock, Henry, Jasper, Newton, Putnam, Taliaferro, Wilkes) where neighboring precincts may fall in a different congressional district.",
+        "url": "https://mvp.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-my-voter-page",
+        "lastVerified": "2026-07-20"
+      },
+      {
+        "id": "res-ballot-box",
+        "label": "Find ballot boxes",
+        "description": "County-approved absentee ballot drop box locations, listed via the My Voter Page. Georgia law (SB 202, 2021) restricts drop boxes to indoor locations at county election offices or early-voting sites, capped at roughly one per 100,000 registered voters (or one per site). GA-10's rural counties may have zero or one drop box; drop-box availability could not be independently confirmed for Elbert, Franklin, Hart, Taliaferro, and Wilkes counties.",
+        "url": "https://mvp.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-my-voter-page",
+        "lastVerified": "2026-07-20"
+      },
+      {
+        "id": "res-check-reg",
+        "label": "Check registration status",
+        "description": "Confirm your Georgia voter registration status, polling place, and ballot details via the My Voter Page.",
+        "url": "https://mvp.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-my-voter-page",
+        "lastVerified": "2026-07-20"
+      },
+      {
+        "id": "res-track",
+        "label": "Track your ballot",
+        "description": "Secure My Absentee Ballot tracker — check the status of your absentee ballot request and return.",
+        "url": "https://securemyabsenteeballot.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-absentee-tracker",
+        "lastVerified": "2026-07-20"
+      },
+      {
+        "id": "res-verify",
+        "label": "Voter ID information",
+        "description": "Official Georgia SOS guide to voter ID requirements at the polls and for absentee ballots. NEEDS REVIEW: exact live URL not independently re-fetched this research pass; the SOS elections hub is a reliable fallback.",
+        "url": "https://sos.ga.gov/how-to-guide/how-guide-voter-id-requirements",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-voter-id-guide",
+        "lastVerified": "2026-07-20"
+      },
+      {
+        "id": "res-results",
+        "label": "Election results",
+        "description": "Official Georgia statewide election results portal. NEEDS REVIEW: exact live results-night domain not independently re-verified this research pass; the SOS elections hub links to results as a fallback.",
+        "url": "https://results.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-results",
+        "lastVerified": "2026-07-20"
+      },
+      {
+        "id": "res-ga10-clarke-elections",
+        "label": "Athens-Clarke County elections",
+        "description": "GA-10's largest county by population and civic hub. Elections office at 155 E. Washington St, Athens; (706) 613-3150. Drop box inside office (early-voting hours only); multiple early-voting sites including the UGA Tate Student Center.",
+        "url": "https://www.accgov.com/160/Elections-Department",
+        "governingAuthority": "Athens-Clarke County",
+        "sourceType": "official-county",
+        "sourceId": "src-accgov-elections",
+        "lastVerified": "2026-07-20"
+      },
+      {
+        "id": "res-ga10-oconee-elections",
+        "label": "Oconee County elections",
+        "description": "Watkinsville-based; Director Sharon Gregg; (706) 769-3958. WATCH: active State Election Board complaint (candidate-qualifying-date practice) referred to the Georgia Attorney General in February 2026; June 2026 primary runoff was run with a single early-voting site over 5 days.",
+        "url": "https://www.oconeecountyga.gov/1463/Elections-Registration",
+        "governingAuthority": "Oconee County",
+        "sourceType": "official-county",
+        "sourceId": "src-oconee-elections",
+        "lastVerified": "2026-07-20"
+      },
+      {
+        "id": "res-ga10-county-directory",
+        "label": "GA-10 county election office directory",
+        "description": "FVAP-aggregated directory of county board-of-elections phone and contact information for all 20 GA-10 counties (12 whole + 8 partial). NEEDS REVIEW: individual county website URLs were not fully captured for every county; use county-specific tiles above where available.",
+        "url": "https://www.fvap.gov/xml-api/Georgia/election-offices.xml",
+        "governingAuthority": "Federal Voting Assistance Program (aggregating Georgia county boards of elections)",
+        "sourceType": "official-county",
+        "sourceId": "src-fvap-ga",
+        "lastVerified": "2026-07-20"
+      }
+    ],
+    "UPDATES": [
+      {
+        "id": "upd-ga10-001",
+        "title": "GA-10 dashboard initialized from ga-02 template — 24 sources, 10 events, 8 rules wired",
+        "fieldChanged": "Dashboard configuration",
+        "oldValue": "Not configured",
+        "newValue": "Initial build July 20, 2026, cloned from the GA-02 template structure. 24 sources (Georgia SOS suite, county sources for Clarke/Oconee/Barrow/Walton, statutory O.C.G.A. citations, SB 202/189, FVAP county directory, and 10 news sources including AJC, Georgia Recorder, GPB, WUGA, WSB-TV, and Oconee County Observations) recorded from primary-source research. All 10 election events and 8 voting rules researched from Georgia SOS and statutory sources, but all marked needsReview/unconfirmed pending human QA. Open-seat race: Houston Gaines (R) vs. Pamela DeLancy (D) after Mike Collins (R) vacated to run for U.S. Senate (won GOP runoff June 16).",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ajc-open-seat",
+          "src-usa-today-ga-primary"
+        ],
+        "detectedAt": "2026-07-20T18:00:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "upd-ga10-002",
+        "title": "SB 189 tabulation-method crisis: statewide guidance contested for Nov 3 general",
+        "fieldChanged": "Ballot tabulation method",
+        "oldValue": "QR-code-based ballot tabulation used in prior cycles.",
+        "newValue": "SB 189 (2024) banned QR-code tabulation effective July 1, 2026. Post-deadline, guidance is split: the Secretary of State's office told counties to keep touchscreen machines and OCR the ballot images for the 'official' count before certification, while the State Election Board's June 4, 2026 resolution permits counties to switch to hand-marked paper ballots. SEB also adopted new rules on July 9, 2026 restricting tabulation from electronic ballot copies. Each GA-10 county's chosen approach for November should be reconfirmed closer to Election Day.",
+        "sourceIds": [
+          "src-ga-sb189",
+          "src-ajc-qr-code-crisis",
+          "src-georgia-recorder-hand-marked",
+          "src-gpb-seb-rules"
+        ],
+        "detectedAt": "2026-07-20T18:00:00Z",
+        "severity": "high",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-ga10-003",
+        "title": "Oconee County SEB complaint on candidate-qualifying dates referred to AG",
+        "fieldChanged": "County-level administrative posture (Oconee)",
+        "oldValue": "No active administrative complaints on record.",
+        "newValue": "On Feb 27, 2026, the State Election Board voted 3-0 (Johnson, Grubbs, King in favor; Ghazal absent; Chair Fervier not voting) to refer to the Georgia Attorney General a complaint alleging Oconee County's 2020 and 2022 candidate-qualifying periods were held at the wrong time under state law. Live, unresolved administrative matter directly involving a GA-10 county.",
+        "sourceIds": [
+          "src-oconee-observations-complaint"
+        ],
+        "detectedAt": "2026-07-20T18:00:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-ga10-004",
+        "title": "All rules and events flagged for county-level and statutory-text verification",
+        "fieldChanged": "QA status",
+        "oldValue": "Not yet reviewed",
+        "newValue": "8 voting rules and 10 election events all marked needsReview: true, confidence: unconfirmed (lastVerified 2026-07-20). Priority follow-ups: (a) confirm ballot-cure deadline (~Nov 6) against a 2026-specific SOS document, (b) confirm state certification deadline (Nov 20 vs. commonly assumed Nov 17) against SOS calendar, (c) verify drop-box availability for Elbert, Franklin, Hart, Taliaferro, and Wilkes counties, (d) archive the 2023 court-ordered congressional-map PDF from legis.ga.gov.",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ga-legis-redistricting"
+        ],
+        "detectedAt": "2026-07-20T18:00:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      }
+    ],
+    "CONFLICTS": [
+      {
+        "id": "conf-ga10-001",
+        "factInQuestion": "Statewide ballot-tabulation method for the November 3, 2026 general election.",
+        "sourceAId": "src-ga-sb189",
+        "sourceAClaim": "SB 189 (2024) prohibits QR-code-based ballot tabulation effective July 1, 2026. Secretary of State guidance interprets this as compatible with continued touchscreen-machine use if the 'official' tabulation is derived from OCR of the ballot images rather than the QR codes.",
+        "sourceBId": "src-georgia-recorder-hand-marked",
+        "sourceBClaim": "State Election Board's June 4, 2026 non-binding resolution (3-1) permits counties to switch to hand-marked paper ballots if the legislature fails to fund a replacement system, contradicting the SOS interpretation.",
+        "whyItMatters": "Every GA-10 county's Election Day process depends on which interpretation controls. Voters and poll workers may see materially different ballot-marking and counting procedures depending on their county's chosen approach — and adjacent counties in GA-10 could plausibly go different directions.",
+        "suggestedReviewAction": "Track individual GA-10 county board-of-elections announcements between now and October; flag any county-level policy divergence in a dashboard alert.",
+        "severity": "high",
+        "status": "unresolved",
+        "createdAt": "2026-07-20T18:00:00Z"
+      },
+      {
+        "id": "conf-ga10-002",
+        "factInQuestion": "State (SOS) certification deadline for the November 3, 2026 general.",
+        "sourceAId": "src-ga-ocga-21-2-499",
+        "sourceAClaim": "O.C.G.A. § 21-2-499(b) requires certification by 5 PM on the 17th day following the election — Nov 20, 2026 for a Nov 3 election.",
+        "sourceBId": "src-ga-sos-elections",
+        "sourceBClaim": "Commonly cited references (including NCSL summaries and prior-cycle deadline lists) reference a Nov 17 certification deadline, which is not consistent with a strict '17th day following' reading of statute.",
+        "whyItMatters": "A 3-day difference matters for post-election litigation timelines, contested-race procedures, and voter expectations around results finality.",
+        "suggestedReviewAction": "Confirm against the Secretary of State's officially published 2026 election calendar (PDF) once released.",
+        "severity": "medium",
+        "status": "unresolved",
+        "createdAt": "2026-07-20T18:00:00Z"
+      }
+    ],
+    "NEWS": [
+      {
+        "id": "news-ga10-001",
+        "headline": "U.S. House District 10: Trump support faces test in race to replace Collins",
+        "sourceName": "Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/04/us-house-district-10-trump-support-faces-test-in-race-to-replace-collins/",
+        "publishedAt": "2026-04-15",
+        "relevanceSummary": "Framing piece for the GA-10 GOP primary: Trump-endorsed Houston Gaines (state Rep., Athens) vs. Jeff Baker and Ryan Millsap. Confirms open-seat dynamic after incumbent Mike Collins vacated to run for U.S. Senate. Gaines won the May 19 primary.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-002",
+        "headline": "Rep. Mike Collins wins U.S. Senate runoff; will face Sen. Jon Ossoff in November",
+        "sourceName": "WSB-TV",
+        "url": "https://www.wsbtv.com/news/local/atlanta/rep-mike-collins-wins-us-senate-runoff-will-face-sen-jon-ossoff-november/SX6RCZ2ZU5A67G5MB5C6HMRCHY/",
+        "publishedAt": "2026-06-16",
+        "relevanceSummary": "Confirms the incumbent GA-10 congressman won the June 16 GOP Senate runoff (55.5%) against Trump-endorsed Derek Dooley, sealing GA-10 as a true open-seat race for November between Gaines (R) and DeLancy (D).",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-003",
+        "headline": "Georgia primary election results (May 19, 2026)",
+        "sourceName": "USA Today",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/05/20/georgia-primary-election-results-house-senate-governor/90077124007/",
+        "publishedAt": "2026-05-20",
+        "relevanceSummary": "Statewide primary results including GA-10 Democratic primary: Pam DeLancy (retired U.S. Army nurse colonel, Henry County) won with 54.4% of ~99% reported, defeating Lexy Doherty (2024 nominee) and John Dority. Confirms Gaines-DeLancy general.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-004",
+        "headline": "Georgia election officials have no idea how to run elections after July",
+        "sourceName": "Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/04/georgia-election-officials-have-no-idea-how-to-run-elections-after-july/",
+        "publishedAt": "2026-04-13",
+        "relevanceSummary": "Explains the operational bind SB 189's July 1, 2026 QR-code tabulation ban created for all 159 Georgia counties, including all 20 GA-10 counties, after the legislature adjourned without funding a replacement tabulation system.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-005",
+        "headline": "State Election Board rejects paper ballots amid looming voting mess",
+        "sourceName": "Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/05/state-election-board-rejects-paper-ballots-amid-looming-voting-mess/",
+        "publishedAt": "2026-05-02",
+        "relevanceSummary": "SEB voted 4-1 against forcing all counties to switch to hand-marked paper ballots; Chair John Fervier stated the board lacked authority to mandate the change. Left GA-10 counties without a clear statewide directive.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-006",
+        "headline": "State Election Board passes resolution allowing counties to switch to hand-marked ballots",
+        "sourceName": "Georgia Recorder",
+        "url": "https://georgiarecorder.com/2026/06/04/state-election-board-passes-resolution-allowing-counties-to-switch-to-hand-marked-ballots/",
+        "publishedAt": "2026-06-04",
+        "relevanceSummary": "Non-binding SEB resolution (3-1, introduced by Vice Chair Janelle King) permitting counties to use hand-marked paper ballots if the Legislature failed to act by July 1. Directly contradicts the Secretary of State's guidance to keep touchscreen machines with OCR post-processing.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-007",
+        "headline": "Georgia election board adopts new rules targeting election mistrust",
+        "sourceName": "Georgia Public Broadcasting",
+        "url": "https://www.gpb.org/news/2026/07/09/georgia-election-board-adopts-new-rules-targeting-election-mistrust",
+        "publishedAt": "2026-07-09",
+        "relevanceSummary": "SEB adopted two new rules: (1) prohibiting tabulation from an electronic copy of a ballot rather than the paper original, and (2) requiring all vote tabulation/consolidation to be in public view of election monitors. AG Chris Carr warned one rule could invite constitutional challenge. Affects every GA-10 county's Nov 3 procedure.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-008",
+        "headline": "Athens-Clarke Board of Elections gets ready for midterms",
+        "sourceName": "WUGA",
+        "url": "https://www.wuga.org/local-news/2026-07-08/acc-board-of-elections-is-getting-ready-for-midterms",
+        "publishedAt": "2026-07-08",
+        "relevanceSummary": "GA-10-specific coverage from the district's largest local outlet (WUGA, University of Georgia). Preview of the Athens-Clarke County BOE's operational planning for the November general — the county with the district's largest voter population and multiple early-voting sites including the UGA Tate Student Center.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-009",
+        "headline": "State Election Board sends complaint against Oconee County to Attorney General",
+        "sourceName": "Oconee County Observations",
+        "url": "https://www.oconeecountyobservations.org/2026/02/state-election-board-sends-complaint.html",
+        "publishedAt": "2026-02-27",
+        "relevanceSummary": "GA-10-specific: SEB voted 3-0 (Johnson, Grubbs, King in favor) to refer to the Georgia AG a complaint that Oconee County's 2020 and 2022 candidate-qualifying periods were held at the wrong time under state law. Live, unresolved administrative matter affecting a whole GA-10 county.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-010",
+        "headline": "Only five days of early voting for Oconee's June 16 runoff",
+        "sourceName": "Oconee County Observations",
+        "url": "https://www.oconeecountyobservations.org/2026/05/only-five-days-of-early-voting.html",
+        "publishedAt": "2026-05-30",
+        "relevanceSummary": "GA-10-specific: Oconee County BOE ran the June 16 statewide primary runoff with a single early-voting site over 5 days, after the Board tabled (4-1) a proposal earlier in the year to add a permanent second early-voting site. Worth flagging as a capacity-planning question for Nov 3.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-04pwuhf",
+        "headline": "Georgia election board adopts new rules targeting election mistrust",
+        "sourceName": "Capitol Beat",
+        "url": "https://capitol-beat.org/2026/07/georgia-election-board-adopts-new-rules-targeting-election-mistrust/",
+        "publishedAt": "2026-07-17",
+        "relevanceSummary": "The State Election Board adopted new statewide rules requiring that vote tabulation occur directly from paper ballots rather than electronic copies and that all tabulations and consolidations happen in public, changing how every Georgia county administers counts and transparency procedures.[1]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-00gbvmx",
+        "headline": "Georgia senators end special session with vote on elections",
+        "sourceName": "Mountain Country Radio (The Center Square)",
+        "url": "https://www.mountaincountryradio.com/state-news/georgia-senators-end-special-session-with-vote-on-elections/",
+        "publishedAt": "2026-07-15",
+        "relevanceSummary": "Senate Bill 3EX, passed in special session, delays until January 2028 the ban on using QR codes to count ballots and begins the process of selecting a new statewide voting system, meaning GA-10 voters will continue using touchscreen machines and QR-coded ballots through the 2026 elections.[2]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0szkeqs",
+        "headline": "Georgia Senate approves election overhaul bill creating voting equipment committee, expanding audits",
+        "sourceName": "CBS News Atlanta",
+        "url": "https://www.cbsnews.com/atlanta/news/georgia-senate-approves-election-overhaul-bill-creating-voting-equipment-committee-expanding-audits/",
+        "publishedAt": "2026-07-13",
+        "relevanceSummary": "The Senate-approved overhaul bill would create a committee to guide selection of future voting equipment and expand post-election audits across Georgia, setting up changes to machines and audit practices that will directly affect GA-10 polling places and ballot verification.[5]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-082eedi",
+        "headline": "Candidate Qualifying for Elected Office",
+        "sourceName": "Georgia Secretary of State",
+        "url": "https://sos.ga.gov/candidate-qualifying-elected-office",
+        "publishedAt": "2026-07-10",
+        "relevanceSummary": "The Secretary of State’s candidate qualifying guidance outlines current statewide rules, locations, and deadlines for qualifying for office in Georgia, which governs how prospective GA-10 candidates file to appear on primary and general election ballots.[4]",
+        "tag": "candidates",
+        "reviewState": "new"
+      }
+    ],
+    "LAST_REFRESH": {
+      "id": "run-2026-07-20-ga10-auto",
+      "startedAt": "2026-07-20T22:34:28.268Z",
+      "completedAt": "2026-07-20T22:35:04.413Z",
+      "triggerType": "scheduled",
+      "sourcesChecked": 11,
+      "updatesCreated": 4,
+      "conflictsCreated": 0,
+      "errors": [],
+      "summary": "Automated refresh completed 2026-07-20 for GA-10. Sources checked: 11. LLM verifications: 9. No changes detected; all sources verified unchanged."
+    },
+    "NEXT_REFRESH_AT": "2026-07-27T22:35:04.413Z",
+    "WEEKLY_REPORT": {
+      "id": "wr-ga10-2026-w30",
+      "periodStart": "2026-07-20",
+      "periodEnd": "2026-07-20",
+      "sourcesChecked": 24,
+      "newUpdates": 4,
+      "conflictsCreated": 2,
+      "conflictsResolved": 0,
+      "deadlinesChanged": 0,
+      "rulesChanged": 0,
+      "newsItems": 10,
+      "needsReview": 18,
+      "sourceErrors": 0,
+      "summary": "Initial build for GA-10, cloned from the GA-02 dashboard template ahead of the November 3, 2026 general election. Open-seat race after Mike Collins (R, inc.) vacated to run for U.S. Senate: Houston Gaines (R, state Rep., Athens, Trump-endorsed) vs. Pamela DeLancy (D, retired Army nurse colonel, Henry County). District rated Solid/Safe R (Cook PVI R+11). Two unresolved conflicts logged: (1) statewide ballot-tabulation method for Nov 3 remains contested between SOS (touchscreen + OCR) and State Election Board (permitting hand-marked paper), and (2) state certification deadline (Nov 20 by statute vs. commonly assumed Nov 17). GA-10-specific issue: Oconee County has an active SEB complaint referred to the Georgia AG in Feb 2026 over candidate-qualifying-date practices, and separately ran the June 2026 runoff with only 5 days of early voting at a single site. Drop-box availability could not be confirmed for Elbert, Franklin, Hart, Taliaferro, and Wilkes counties. All 24 sources verified as of July 20, 2026. All events and rules flagged needsReview pending county-specific and statutory-text confirmation.",
+      "generatedAt": "2026-07-20T18:00:00Z"
+    }
+  }
+}
