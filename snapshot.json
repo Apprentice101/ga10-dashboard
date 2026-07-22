@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-20",
-  "updatedAt": "2026-07-20T22:51:45.466Z",
-  "exportedAt": "2026-07-20T22:52:28.704Z",
+  "dataAsOf": "2026-07-22",
+  "updatedAt": "2026-07-22T06:30:45.259Z",
+  "exportedAt": "2026-07-22T06:50:33.627Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-20",
+        "lastVerified": "2026-07-22",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-20",
+        "lastVerified": "2026-07-22",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-20",
+        "lastVerified": "2026-07-22",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-20",
+        "lastVerified": "2026-07-22",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-20",
+        "lastVerified": "2026-07-22",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -1087,17 +1087,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-20-ga10-auto",
-      "startedAt": "2026-07-20T22:50:24.795Z",
-      "completedAt": "2026-07-20T22:51:45.466Z",
+      "id": "run-2026-07-22-ga10-auto",
+      "startedAt": "2026-07-22T06:30:01.119Z",
+      "completedAt": "2026-07-22T06:30:45.259Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 12,
-      "updatesCreated": 1,
+      "sourcesChecked": 11,
+      "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-20 for GA-10. Sources checked: 12. LLM verifications: 12. No changes detected; all sources verified unchanged."
+      "summary": "Automated refresh completed 2026-07-22 for GA-10. Sources checked: 11. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-27T22:51:45.466Z",
+    "NEXT_REFRESH_AT": "2026-07-29T06:30:45.259Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
