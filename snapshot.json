@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-22",
-  "updatedAt": "2026-07-22T06:30:45.259Z",
-  "exportedAt": "2026-07-22T21:15:41.590Z",
+  "dataAsOf": "2026-07-29",
+  "updatedAt": "2026-07-29T06:34:04.625Z",
+  "exportedAt": "2026-07-29T06:54:01.954Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -419,7 +419,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 7,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-20",
+        "lastVerified": "2026-07-29",
         "confidence": "unconfirmed",
         "notes": "County-list corroboration only. NEEDS REVIEW against the official GA General Assembly reapportionment PDF for the 2023 remedial map."
       },
@@ -1084,20 +1084,30 @@
         "relevanceSummary": "The Georgia State Election Board approved new rules requiring that vote tabulation be done directly from paper ballots rather than electronic copies, changing how counties handle ballot counting and audits ahead of upcoming elections.[1] This statewide rule directly affects how votes from GA-10 precincts will be processed and may impact recount procedures and election-night reporting.[1]",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0yn8jir",
+        "headline": "The Office of Elections & Registration: Absentee By-Mail Ballot Procedures",
+        "sourceName": "Grady County Government",
+        "url": "https://gradycountyga.gov/the-office-of-elections-registration/",
+        "publishedAt": "2026-07-10",
+        "relevanceSummary": "Grady County’s elections office outlines Georgia’s absentee-by-mail rules, including that ballot requests are accepted only from 78 to 11 days before an election and must be submitted via mail, fax, email, or in person.[10] While specific to Grady County, these timelines and procedures follow Georgia law and offer practical guidance that GA-10 voters can apply when planning mail ballot requests.[10]",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-22-ga10-auto",
-      "startedAt": "2026-07-22T06:30:01.119Z",
-      "completedAt": "2026-07-22T06:30:45.259Z",
+      "id": "run-2026-07-29-ga10-auto",
+      "startedAt": "2026-07-29T06:32:35.687Z",
+      "completedAt": "2026-07-29T06:34:04.625Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 11,
-      "updatesCreated": 0,
+      "sourcesChecked": 12,
+      "updatesCreated": 1,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-22 for GA-10. Sources checked: 11. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-29 for GA-10. Sources checked: 12. LLM verifications: 13. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-29T06:30:45.259Z",
+    "NEXT_REFRESH_AT": "2026-08-05T06:34:04.625Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
