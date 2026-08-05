@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-29",
-  "updatedAt": "2026-07-29T06:34:04.625Z",
-  "exportedAt": "2026-07-29T06:54:01.954Z",
+  "dataAsOf": "2026-08-05",
+  "updatedAt": "2026-08-05T06:27:52.470Z",
+  "exportedAt": "2026-08-05T06:47:43.262Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-08-05",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-08-05",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -1094,20 +1094,50 @@
         "relevanceSummary": "Grady County’s elections office outlines Georgia’s absentee-by-mail rules, including that ballot requests are accepted only from 78 to 11 days before an election and must be submitted via mail, fax, email, or in person.[10] While specific to Grady County, these timelines and procedures follow Georgia law and offer practical guidance that GA-10 voters can apply when planning mail ballot requests.[10]",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0rqtg81",
+        "headline": "Georgia State Election Board tests limits ahead of midterms",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/08/georgia-state-election-board-tests-limits-ahead-of-midterms/",
+        "publishedAt": "2026-08-02",
+        "relevanceSummary": "This article details recent actions by the Georgia State Election Board that affect how county election officials interpret and implement state election rules, which directly impacts polling procedures, ballot handling, and enforcement in all counties including those in GA-10.[19]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0taxdxs",
+        "headline": "Kemp signs measure extending QR code voting system deadline to 2028",
+        "sourceName": "Georgia Trend Magazine",
+        "url": "https://www.georgiatrend.com/2026/07/31/kemp-legislative-columbus-ga-congressional-maps-in-georgia/",
+        "publishedAt": "2026-07-31",
+        "relevanceSummary": "Georgia Trend reports that Gov. Brian Kemp signed a law extending the deadline for phasing out QR-code ballot counting from July 1, 2026 to January 1, 2028, ensuring that the current QR-based voting system will be used in November 2026 across Georgia, including GA-10.[9]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0tp1ja0",
+        "headline": "New panel begins work reviewing options for Georgia’s next election system",
+        "sourceName": "Now Georgia",
+        "url": "https://nowgeorgia.com/new-panel-begins-work-reviewing-options-for-georgias-next-election-system/",
+        "publishedAt": "2026-07-29",
+        "relevanceSummary": "This article explains that a new statewide committee is beginning formal work to evaluate and recommend Georgia’s next voting system, a process that may result in changes to voting equipment, ballot design, and election procedures affecting GA-10 voters in future cycles.[14]",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-29-ga10-auto",
-      "startedAt": "2026-07-29T06:32:35.687Z",
-      "completedAt": "2026-07-29T06:34:04.625Z",
+      "id": "run-2026-08-05-ga10-auto",
+      "startedAt": "2026-08-05T06:27:11.972Z",
+      "completedAt": "2026-08-05T06:27:52.470Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 12,
-      "updatesCreated": 1,
+      "sourcesChecked": 11,
+      "updatesCreated": 3,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-29 for GA-10. Sources checked: 12. LLM verifications: 13. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-05 for GA-10. Sources checked: 11. LLM verifications: 9. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-05T06:34:04.625Z",
+    "NEXT_REFRESH_AT": "2026-08-12T06:27:52.470Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
