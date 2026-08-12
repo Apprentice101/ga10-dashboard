@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-05",
-  "updatedAt": "2026-08-05T06:27:52.470Z",
-  "exportedAt": "2026-08-05T06:47:43.262Z",
+  "dataAsOf": "2026-08-12",
+  "updatedAt": "2026-08-12T05:30:37.839Z",
+  "exportedAt": "2026-08-12T05:47:09.589Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-12",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -139,7 +139,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-20",
+        "lastVerified": "2026-08-12",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: exact live URL not independently re-fetched this pass; SOS elections hub is a reliable fallback."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -1124,20 +1124,60 @@
         "relevanceSummary": "This article explains that a new statewide committee is beginning formal work to evaluate and recommend Georgia’s next voting system, a process that may result in changes to voting equipment, ballot design, and election procedures affecting GA-10 voters in future cycles.[14]",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-090d3d7",
+        "headline": "Princeton analysis raises new concerns over voter privacy in Georgia elections",
+        "sourceName": "Noah News",
+        "url": "https://noah-news.com/princeton-analysis-raises-new-concerns-over-voter-privacy-in-georgia-elections/",
+        "publishedAt": "2026-08-10",
+        "relevanceSummary": "This Georgia-specific story matters to GA-10 voters because it says State Elections Director Blake Evans ordered counties to stop releasing ballot images directly and to route requests through a state repository that removes original record identifiers. That is a statewide ballot-procedures change affecting election administration and public-records access.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0goulft",
+        "headline": "Voters spared as Senate recesses without passing SAVE America Act’s voter ID measure",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/voters-spared-as-senate-recesses-without-passing-save-america-acts-voter-id-measure/",
+        "publishedAt": "2026-08-09",
+        "relevanceSummary": "This is relevant to GA-10 voters because it covers the same federal voter-ID proposal and its failure to advance before recess. The piece says the bill would have required photo identification to vote and would have tightened registration rules, which matters even if the direct change would have been federal rather than Georgia-specific.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0knx0sl",
+        "headline": "US Senate leaves town for recess after passing stopgap spending bill, blocking photo ID for voting",
+        "sourceName": "Now Georgia",
+        "url": "https://nowgeorgia.com/us-senate-leaves-town-for-recess-after-passing-stopgap-spending-bill-blocking-photo-id-for-voting/",
+        "publishedAt": "2026-08-09",
+        "relevanceSummary": "This affects GA-10 voters because it reports that the Senate failed to advance a federal photo-ID voting bill before recess. The article says the measure would have required photo ID to vote in federal elections and proof of citizenship to register, making it a key voter-ID and registration-development story.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0z0i9a3",
+        "headline": "Georgia committee confronts tight timeline for election system overhaul",
+        "sourceName": "The Current",
+        "url": "https://thecurrentga.org/2026/08/08/georgia-committee-confronts-tight-timeline-for-election-system-overhaul/",
+        "publishedAt": "2026-08-08",
+        "relevanceSummary": "This Georgia election-administration story is directly relevant because statewide system changes affect how GA-10 voters will register, cast, and have ballots processed in November. It concerns the timing and implementation of an election system overhaul, which could influence polling-place and ballot-handling procedures across the state.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-05-ga10-auto",
-      "startedAt": "2026-08-05T06:27:11.972Z",
-      "completedAt": "2026-08-05T06:27:52.470Z",
+      "id": "run-2026-08-12-ga10-auto",
+      "startedAt": "2026-08-12T05:30:01.459Z",
+      "completedAt": "2026-08-12T05:30:37.839Z",
       "triggerType": "scheduled",
       "sourcesChecked": 11,
-      "updatesCreated": 3,
+      "updatesCreated": 4,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-05 for GA-10. Sources checked: 11. LLM verifications: 9. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-12 for GA-10. Sources checked: 11. LLM verifications: 8. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-12T06:27:52.470Z",
+    "NEXT_REFRESH_AT": "2026-08-19T05:30:37.839Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
