@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-19",
-  "updatedAt": "2026-08-19T04:39:56.424Z",
-  "exportedAt": "2026-08-19T05:07:17.234Z",
+  "dataAsOf": "2026-08-26",
+  "updatedAt": "2026-08-26T04:43:33.757Z",
+  "exportedAt": "2026-08-26T05:15:10.628Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -1234,20 +1234,70 @@
         "relevanceSummary": "This explainer details how Georgia voters register, find their polling place, vote in person with required photo ID, and request and return absentee ballots via mail or drop box, giving GA-10 voters a practical overview of current statewide procedures and voter-ID requirements.[2]",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0a5he74",
+        "headline": "What the Supreme Court's mail-in voting ruling means for ...",
+        "sourceName": "Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/08/what-the-supreme-courts-mail-in-voting-ruling-means-for-georgia/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "Georgia’s mail-voting rules are still unchanged for now, but the article says absentee-ballot applications are already open and election officials are working toward upcoming deadlines. That directly affects GA-10 voters because Georgia’s statewide absentee process applies in the district and the story flags potential federal changes that could affect how ballots are handled.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-07o3fqt",
+        "headline": "USPS makes new rules for mail-in ballots",
+        "sourceName": "KVIA",
+        "url": "https://kvia.com/news/2026/08/23/usps-makes-new-rules-for-mail-in-ballots/",
+        "publishedAt": "2026-08-23",
+        "relevanceSummary": "The article says USPS would require states to collect and report voter information tied to mail ballots before those ballots enter the mailstream. GA-10 voters are affected only indirectly, but the story is relevant because it could alter Georgia’s absentee-ballot handling if the rule survives legal challenges.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0qqlnxy",
+        "headline": "USPS publishes new rule requiring states to submit voter data before mailing ballots",
+        "sourceName": "TurnTo 10",
+        "url": "https://turnto10.com/news/nation-world/usps-publishes-new-rule-requiring-states-to-submit-voter-data-before-mailing-ballots-mail-in-united-states-postal-service-vote-voters-voter-fraud-politics-president-donald-trump",
+        "publishedAt": "2026-08-22",
+        "relevanceSummary": "This report says USPS adopted new standards affecting how states send mail-in and absentee ballots, which could change ballot delivery procedures if implemented. It is relevant to GA-10 voters because Georgia uses mail voting statewide, although the district impact is indirect until state implementation is clear.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0ex0s5q",
+        "headline": "Georgia",
+        "sourceName": "VoteRiders",
+        "url": "https://voteriders.org/states/georgia/check-id-rules/",
+        "publishedAt": "2026-08-20",
+        "relevanceSummary": "VoteRiders summarizes Georgia’s current voter-ID rules for in-person voting and absentee ballots, including the need for ID numbers or an acceptable ID copy when requesting or returning mail ballots. GA-10 voters need this because Georgia’s ID requirements apply statewide, including this district.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0mmgdag",
+        "headline": "Georgia election law changes explained: What will be different in ...",
+        "sourceName": "Verified Voting",
+        "url": "https://verifiedvoting.org/blog-georgia-sb3ex-2026/",
+        "publishedAt": "2026-08-20",
+        "relevanceSummary": "This explainer says SB 3EX does not change registration or absentee-voting deadlines, and it points voters to Georgia’s My Voter Page and absentee-ballot tools. That matters to GA-10 voters because it summarizes current statewide procedures that govern voting in the district.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-19-ga10-auto",
-      "startedAt": "2026-08-19T04:39:03.665Z",
-      "completedAt": "2026-08-19T04:39:56.424Z",
+      "id": "run-2026-08-26-ga10-auto",
+      "startedAt": "2026-08-26T04:42:27.555Z",
+      "completedAt": "2026-08-26T04:43:33.757Z",
       "triggerType": "scheduled",
       "sourcesChecked": 10,
-      "updatesCreated": 7,
+      "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-19 for GA-10. Sources checked: 10. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-26 for GA-10. Sources checked: 10. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-26T04:39:56.424Z",
+    "NEXT_REFRESH_AT": "2026-09-02T04:43:33.757Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
