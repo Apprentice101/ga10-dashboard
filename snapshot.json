@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-26",
-  "updatedAt": "2026-08-26T04:43:33.757Z",
-  "exportedAt": "2026-08-26T05:15:10.628Z",
+  "dataAsOf": "2026-09-02",
+  "updatedAt": "2026-09-02T08:30:38.442Z",
+  "exportedAt": "2026-09-02T09:08:58.818Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -243,7 +243,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-20",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "State certification deadline: 5 PM on the 17th day following the election (Nov 20, 2026 for Nov 3 general). Independent legal analysis; NEEDS REVIEW against the live O.C.G.A. text."
       },
@@ -1284,20 +1284,50 @@
         "relevanceSummary": "This explainer says SB 3EX does not change registration or absentee-voting deadlines, and it points voters to Georgia’s My Voter Page and absentee-ballot tools. That matters to GA-10 voters because it summarizes current statewide procedures that govern voting in the district.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0lrdr73",
+        "headline": "New challenges to Trump mail-in voting order arrive after US Supreme Court ruling",
+        "sourceName": "Georgia Recorder",
+        "url": "https://georgiarecorder.com/2026/08/27/repub/new-challenges-to-trump-mail-in-voting-order-arrive-after-us-supreme-court-ruling",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "This article details new legal challenges to a federal executive order directing USPS to impose additional restrictions and standards for mail-in ballots after the Supreme Court lifted a nationwide injunction, a development that could affect how absentee ballots are handled in Georgia and therefore influence future mail-ballot administration for GA-10 voters.[11]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-04oxkp1",
+        "headline": "How will ruling affect mail-in voting for future elections?",
+        "sourceName": "WRDW",
+        "url": "https://www.wrdw.com/2026/08/27/how-will-ruling-affect-mail-in-voting-future-elections/",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "This piece reports that while a recent Supreme Court ruling may affect future election cycles, Georgia’s mail-in voting procedures for the 2026 elections are not changing, reassuring GA-10 voters that they can follow existing absentee-by-mail rules this year.[7]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0sei4ip",
+        "headline": "How to vote in Georgia: Your 2026 election guide",
+        "sourceName": "Courier Georgia",
+        "url": "https://couriergeorgia.com/georgia-voting-guide-2026/",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "This statewide 2026 voting guide summarizes four key election dates for Georgia’s midterms and explains early voting logistics and absentee ballot procedures, helping GA-10 voters understand when and how they can cast ballots in the November election.[14]",
+        "tag": "voter-resource",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-26-ga10-auto",
-      "startedAt": "2026-08-26T04:42:27.555Z",
-      "completedAt": "2026-08-26T04:43:33.757Z",
+      "id": "run-2026-09-02-ga10-auto",
+      "startedAt": "2026-09-02T08:28:18.012Z",
+      "completedAt": "2026-09-02T08:30:38.442Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 10,
-      "updatesCreated": 5,
+      "sourcesChecked": 11,
+      "updatesCreated": 3,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-26 for GA-10. Sources checked: 10. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-02 for GA-10. Sources checked: 11. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-02T04:43:33.757Z",
+    "NEXT_REFRESH_AT": "2026-09-09T08:30:38.442Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
