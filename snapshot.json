@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-02",
-  "updatedAt": "2026-09-02T08:30:38.442Z",
-  "exportedAt": "2026-09-02T09:08:58.818Z",
+  "dataAsOf": "2026-09-09",
+  "updatedAt": "2026-09-09T08:43:20.404Z",
+  "exportedAt": "2026-09-09T09:19:25.877Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -243,7 +243,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "unconfirmed",
         "notes": "State certification deadline: 5 PM on the 17th day following the election (Nov 20, 2026 for Nov 3 general). Independent legal analysis; NEEDS REVIEW against the live O.C.G.A. text."
       },
@@ -1314,20 +1314,80 @@
         "relevanceSummary": "This statewide 2026 voting guide summarizes four key election dates for Georgia’s midterms and explains early voting logistics and absentee ballot procedures, helping GA-10 voters understand when and how they can cast ballots in the November election.[14]",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0lp7mpt",
+        "headline": "Georgia's new task force will tackle election integrity",
+        "sourceName": "Scripps News",
+        "url": "https://www.scrippsnews.com/politics/elections/they-know-what-theyre-speaking-of-georgias-new-task-force-will-tackle-election-integrity",
+        "publishedAt": "2026-09-03",
+        "relevanceSummary": "The report says Georgia’s new task force will examine voter lists, election administration, misinformation, and county compliance. GA-10 voters should note this because statewide administrative changes and county oversight can shape how local elections are run across Georgia.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-05o9pkq",
+        "headline": "Georgia counties told to stick with absentee ballot procedures as exec order looms",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/09/georgia-counties-told-to-stick-with-absentee-ballot-procedures-as-exec-order-looms/",
+        "publishedAt": "2026-09-03",
+        "relevanceSummary": "Georgia’s Secretary of State told county election officials to keep using current absentee-ballot procedures while litigation over federal mail-voting changes continues. This matters to GA-10 voters because Georgia counties are being told not to alter existing mail-ballot operations before ballots begin going out in early September and October.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0xrd2pb",
+        "headline": "The hunt for noncitizen voters in Georgia yields few results",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/09/the-hunt-for-noncitizen-georgia-voters-yields-few-results/",
+        "publishedAt": "2026-09-02",
+        "relevanceSummary": "The story says Georgia law already requires evidence of citizenship for registration and ID for in-person voting or requesting an absentee ballot. For GA-10 voters, that makes this a voter-ID and registration story because it explains existing Georgia eligibility and identification rules.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0bd82lo",
+        "headline": "State Audit Proves Georgia is National Leader in Clean Voter Lists",
+        "sourceName": "Augusta CEO",
+        "url": "https://augustaceo.com/news/2026/09/state-audit-proves-georgia-national-leader-clean-voter-lists/",
+        "publishedAt": "2026-09-02",
+        "relevanceSummary": "A state audit found Georgia’s voter-roll processes complied with statutory requirements and reported high registration accuracy. That is relevant to GA-10 voters because statewide voter-roll maintenance and registration checks directly affect who can vote and whether voter information is current.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0e78nhd",
+        "headline": "Georgia election leaders urge voters to prepare ahead of November midterms",
+        "sourceName": "Yahoo News",
+        "url": "https://www.yahoo.com/news/politics/articles/georgia-election-leaders-urge-voters-232224621.html",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "The article reports that Georgia election officials are training poll workers, updating registration lists, and preparing polling places for November. That is directly relevant to GA-10 voters because polling-place staffing, voter-list accuracy, and absentee-ballot processing affect local voting access.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0cscoik",
+        "headline": "Federal judge lifts all blocks on Trump mail-in ballots executive order",
+        "sourceName": "ABC News",
+        "url": "https://abcnews.com/Politics/federal-judge-lifts-blocks-trump-mail-ballots-executive/story?id=135981337",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "A federal judge lifted blocks on the Trump administration’s mail-voting executive order after the Supreme Court said challenges were premature. This matters to GA-10 voters because it concerns federal mail-ballot rules that could eventually affect Georgia’s absentee voting procedures, though the immediate impact is still uncertain.",
+        "tag": "legal",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-02-ga10-auto",
-      "startedAt": "2026-09-02T08:28:18.012Z",
-      "completedAt": "2026-09-02T08:30:38.442Z",
+      "id": "run-2026-09-09-ga10-auto",
+      "startedAt": "2026-09-09T08:41:42.977Z",
+      "completedAt": "2026-09-09T08:43:20.404Z",
       "triggerType": "scheduled",
       "sourcesChecked": 11,
-      "updatesCreated": 3,
+      "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-02 for GA-10. Sources checked: 11. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-09 for GA-10. Sources checked: 11. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-09T08:30:38.442Z",
+    "NEXT_REFRESH_AT": "2026-09-16T08:43:20.404Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
