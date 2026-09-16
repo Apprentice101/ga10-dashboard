@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-09",
-  "updatedAt": "2026-09-09T08:43:20.404Z",
-  "exportedAt": "2026-09-09T09:19:25.877Z",
+  "dataAsOf": "2026-09-16",
+  "updatedAt": "2026-09-16T09:13:20.237Z",
+  "exportedAt": "2026-09-16T09:50:58.520Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -1374,20 +1374,90 @@
         "relevanceSummary": "A federal judge lifted blocks on the Trump administration’s mail-voting executive order after the Supreme Court said challenges were premature. This matters to GA-10 voters because it concerns federal mail-ballot rules that could eventually affect Georgia’s absentee voting procedures, though the immediate impact is still uncertain.",
         "tag": "legal",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0dehkjg",
+        "headline": "Essential information for voting in Georgia in 2026",
+        "sourceName": "The Macon Telegraph",
+        "url": "https://www.macon.com/news/politics-government/election/voter-guide/article317252951.html",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "This statewide voter guide explains Georgia’s voter eligibility rules, voter registration deadline, how to check registration and find polling locations via My Voter Page, and lists the accepted photo IDs for in‑person and absentee voting, giving GA-10 voters clear guidance on voter-ID requirements and basic voting procedures for 2026.[3]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0y3g62m",
+        "headline": "Georgia's voter registration deadline is approaching. Here are 5 things you need to know",
+        "sourceName": "The Current",
+        "url": "https://thecurrentga.org/2026/09/14/georgias-voter-registration-deadline-is-approaching-here-are-5-things-you-need-to-know/",
+        "publishedAt": "2026-09-14",
+        "relevanceSummary": "This statewide explainer details how Georgia voters, including those in GA-10, can register or update registration online or by mail, what identification (driver’s license or last four of Social Security number) is needed, and how to use the My Voter Page to confirm registration, locate polling places, and access sample ballots, all of which directly govern GA-10 voters’ ability to participate in the November election.[2]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0xmi75w",
+        "headline": "The secret ballot has been an article of faith in U.S. elections. That’s being tested in Georgia",
+        "sourceName": "Los Angeles Times",
+        "url": "https://www.latimes.com/world-nation/story/2026-09-13/secret-ballot-has-been-article-of-faith-in-u-s-elections-thats-being-tested-in-georgia",
+        "publishedAt": "2026-09-13",
+        "relevanceSummary": "This article describes a software flaw in Georgia’s touchscreen voting system that could allow reconstruction of the order ballot images and cast-vote records were cast, prompting state guidance that certain records be released only with sensitive information redacted and work with a vendor to scramble record order, affecting how GA-10’s election data is handled and the protection of ballot secrecy.[11]",
+        "tag": "legal",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-08j65ft",
+        "headline": "Before Georgians Vote on Any Machine, the Machine Gets Tested. In Public.",
+        "sourceName": "Cobb County Courier",
+        "url": "https://cobbcountycourier.com/2026/09/before-georgians-vote-on-any-machine-the-machine-gets-tested-in-public/",
+        "publishedAt": "2026-09-08",
+        "relevanceSummary": "This piece explains that before each election, Georgia county election staff publicly run test ballots with known results through the same touchscreens and scanners used on election day, detailing the logic-and-accuracy testing process that applies to equipment used in GA-10 and provides voters insight into local election security and administration.[5]",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-09jv4ey",
+        "headline": "Lawmakers consider how to protect voting access for people with disabilities, non‑English speakers",
+        "sourceName": "Georgia Recorder",
+        "url": "https://georgiarecorder.com/2026/09/03/lawmakers-consider-how-to-protect-voting-access-for-people-with-disabilities-non-english-speakers/",
+        "publishedAt": "2026-09-03",
+        "relevanceSummary": "Coverage of state lawmakers’ work on implementing changes from the June special session notes that Georgia leaders are likely to select hand‑marked paper ballots as the primary voting method by 2028 and discusses efforts to safeguard voting access for voters with disabilities and non‑English speakers, shaping future election administration affecting GA-10 voters.[15]",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0bi2jz5",
+        "headline": "Lawmakers set to meet again on new way to count Georgia votes",
+        "sourceName": "WRDW",
+        "url": "https://www.wrdw.com/2026/09/03/lawmakers-set-meet-again-new-way-count-georgia-votes/",
+        "publishedAt": "2026-09-03",
+        "relevanceSummary": "This article reports that Georgia lawmakers extended the deadline to phase out QR-code vote tabulation from July 1, 2026 to 2028, meaning GA-10 voters will continue using the current touchscreen and QR‑code-based system through the upcoming November election while a replacement focused on hand‑marked paper ballots is developed.[4]",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-05ykue2",
+        "headline": "State Audit Proves Georgia is National Leader in Clean Voter Lists",
+        "sourceName": "Metro Atlanta CEO",
+        "url": "https://metroatlantaceo.com/news/2026/09/state-audit-proves-georgia-national-leader-clean-voter-lists/",
+        "publishedAt": "2026-09-02",
+        "relevanceSummary": "An independent audit requested by state lawmakers found that Georgia’s voter registration and list-maintenance systems comply with state law and best practices, including citizenship checks on over 98% of registrations and automated safeguards for address and eligibility data, confirming how GA-10 voter rolls are maintained and cleaned before the election.[7]",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-09-ga10-auto",
-      "startedAt": "2026-09-09T08:41:42.977Z",
-      "completedAt": "2026-09-09T08:43:20.404Z",
+      "id": "run-2026-09-16-ga10-auto",
+      "startedAt": "2026-09-16T09:10:18.917Z",
+      "completedAt": "2026-09-16T09:13:20.237Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 11,
-      "updatesCreated": 6,
+      "sourcesChecked": 10,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-09 for GA-10. Sources checked: 11. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-16 for GA-10. Sources checked: 10. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-16T08:43:20.404Z",
+    "NEXT_REFRESH_AT": "2026-09-23T09:13:20.237Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
