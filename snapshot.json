@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-16",
-  "updatedAt": "2026-09-16T09:13:20.237Z",
-  "exportedAt": "2026-09-16T09:50:58.520Z",
+  "dataAsOf": "2026-09-23",
+  "updatedAt": "2026-09-23T09:09:43.697Z",
+  "exportedAt": "2026-09-23T09:37:09.812Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -1444,20 +1444,80 @@
         "relevanceSummary": "An independent audit requested by state lawmakers found that Georgia’s voter registration and list-maintenance systems comply with state law and best practices, including citizenship checks on over 98% of registrations and automated safeguards for address and eligibility data, confirming how GA-10 voter rolls are maintained and cleaned before the election.[7]",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-06b7ezy",
+        "headline": "From Your Mailbox to the Count: The Journey of a Georgia Mail Ballot",
+        "sourceName": "Cobb County Courier",
+        "url": "https://cobbcountycourier.com/2026/09/from-your-mailbox-to-the-count-the-journey-of-a-georgia-mail-ballot/",
+        "publishedAt": "2026-09-21",
+        "relevanceSummary": "Explains Georgia’s absentee-ballot process, including application verification, required ID information and signature, October 5 mailing, the 7 p.m. Election Day receipt deadline, and signature or ID curing opportunities. These statewide procedures apply directly to GA-10 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0747n59",
+        "headline": "Three Georgia counties flagged by Trump administration for using non-English election materials",
+        "sourceName": "The Current",
+        "url": "https://thecurrentga.org/2026/09/19/three-georgia-counties-flagged-by-trump-administration-for-using-non-english-election-materials/",
+        "publishedAt": "2026-09-19",
+        "relevanceSummary": "Reports on federal scrutiny of Georgia counties’ non-English election materials and explains when Section 203 of the Voting Rights Act requires jurisdictions to provide language assistance. The statewide legal and administrative issue may affect voter-access procedures relevant to GA-10 residents.",
+        "tag": "legal",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-01ovvea",
+        "headline": "Ga. lawmakers hear testimony from election security experts at joint committee",
+        "sourceName": "WRDW",
+        "url": "https://www.wrdw.com/2026/09/18/ga-lawmakers-hear-testimony-election-security-experts-joint-committee/",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "Reports testimony to a Georgia legislative committee from election-security experts, with another meeting planned to hear from voting-equipment vendors. The statewide oversight process is relevant to election administration in GA-10.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-088f5oq",
+        "headline": "Lawmakers mull cybersecurity concerns as they prepare for overhaul of Georgia’s voting system",
+        "sourceName": "Route Fifty",
+        "url": "https://www.route-fifty.com/management/2026/09/lawmakers-mull-cybersecurity-concerns-they-prepare-overhaul-georgias-voting-system/416075/",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "Covers Georgia’s proposed transition to hand-marked paper ballots for the 2028 election and cybersecurity experts’ concerns about implementation and election security. Although the change is prospective, it concerns statewide voting-system administration affecting GA-10.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-04wkgdb",
+        "headline": "Ossoff's lead in Georgia remains strong one month out from early vote",
+        "sourceName": "USA TODAY",
+        "url": "https://www.usatoday.com/story/news/state/georgia/2026/09/17/ossoff-maintains-strong-lead-in-georgia-as-early-voting-looms/91809034007/",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "Includes actionable statewide election dates: October 5 registration deadline, October 13–30 early voting, November 3 Election Day, 7 a.m.–7 p.m. polling hours, and instructions to check My Voter Page for locations. These procedures apply to GA-10 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0lfn51i",
+        "headline": "A.M. ATL: Steer clear",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/news/2026/09/am-atl-steer-clear/",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "Provides Georgia absentee-voting instructions, noting that voters need no excuse to request a mail ballot, applications must be submitted at least 11 days before the election, and ballots must reach the county elections office by poll closing. The statewide guidance applies to GA-10 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-16-ga10-auto",
-      "startedAt": "2026-09-16T09:10:18.917Z",
-      "completedAt": "2026-09-16T09:13:20.237Z",
+      "id": "run-2026-09-23-ga10-auto",
+      "startedAt": "2026-09-23T09:08:46.602Z",
+      "completedAt": "2026-09-23T09:09:43.697Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 10,
-      "updatesCreated": 7,
+      "sourcesChecked": 11,
+      "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-16 for GA-10. Sources checked: 10. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-23 for GA-10. Sources checked: 11. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-23T09:13:20.237Z",
+    "NEXT_REFRESH_AT": "2026-09-30T09:09:43.697Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
