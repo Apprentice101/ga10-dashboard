@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-23",
-  "updatedAt": "2026-09-23T09:09:43.697Z",
-  "exportedAt": "2026-09-23T09:37:09.812Z",
+  "dataAsOf": "2026-09-30",
+  "updatedAt": "2026-09-30T10:15:55.901Z",
+  "exportedAt": "2026-09-30T10:36:55.808Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -1504,20 +1504,100 @@
         "relevanceSummary": "Provides Georgia absentee-voting instructions, noting that voters need no excuse to request a mail ballot, applications must be submitted at least 11 days before the election, and ballots must reach the county elections office by poll closing. The statewide guidance applies to GA-10 voters.",
         "tag": "deadline",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-00galud",
+        "headline": "Georgia debuts new 'I Voted' sticker for midterm elections",
+        "sourceName": "WABE",
+        "url": "https://www.wabe.org/georgia-debuts-new-i-voted-sticker-for-midterm-elections/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "The article reminds Georgia voters that early voting runs through Oct. 30 and directs them to the Secretary of State’s My Voter Page for polling locations, hours, sample ballots, and other election information. Those statewide voter-resource details apply to GA-10 voters.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0hlteik",
+        "headline": "When is last day to register to vote in Georgia? Deadline almost here",
+        "sourceName": "USA Today",
+        "url": "https://www.usatoday.com/story/news/state/georgia/2026/09/29/are-you-registered-to-vote-in-georgia-deadline-coming-soon/92000402007/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "Georgia’s voter-registration deadline for the November general election is Oct. 5, and Election Day registration is unavailable. The article also provides statewide early-voting dates and explains that early voters may vote at any location in their county, relevant to GA-10 voters.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-09b7bnr",
+        "headline": "Georgia election deadlines: Register to vote by Oct. 5",
+        "sourceName": "Rough Draft Atlanta",
+        "url": "https://roughdraftatlanta.com/2026/09/29/georgia-election-registration-deadline/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "Georgia voters, including those in GA-10, must register or update their address by Oct. 5 for the November general election. The article also identifies the Oct. 13–30 early-voting period and Oct. 23 absentee-ballot application deadline.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-05uiqch",
+        "headline": "Georgia election board asks for Trump admin to help go after state’s voting machines",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/georgia-election-board-asks-for-trump-admin-to-help-go-after-states-voting-machines/",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "The Georgia State Election Board reportedly directed its executive director to seek federal assistance concerning the state’s voting machines and urged action on election-equipment software. The statewide administrative development could affect voting equipment used by GA-10 counties.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0g25710",
+        "headline": "Georgia probes House candidate for allegedly voting in two states",
+        "sourceName": "The Current GA",
+        "url": "https://thecurrentga.org/2026/09/28/georgia-probes-house-candidate-from-effingham-county-for-allegedly-voting-in-two-states/",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "The report describes Georgia’s investigation of an Effingham County House candidate over alleged double voting and notes that double voting is a felony under Georgia law. Although the case is outside GA-10, it concerns statewide election-law enforcement and candidate qualification.",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0z5ehba",
+        "headline": "Mail-in voting is still an option for this year's midterms. Here's what voters should know.",
+        "sourceName": "Georgia Recorder",
+        "url": "https://georgiarecorder.com/2026/09/28/mail-in-voting-is-still-an-option-for-this-years-midterms-heres-what-voters-should-know/",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "The article explains Georgia’s no-excuse absentee voting process, including the Oct. 23 application deadline and the requirement that ballots arrive by 7 p.m. on Election Day. It also notes that absentee ballots must be signed and include a driver’s-license number or a copy of an accepted photo ID, directly affecting GA-10 voters who vote by mail.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0a01f4y",
+        "headline": "Georgia voting rules: What you need to know before Election Day",
+        "sourceName": "11Alive",
+        "url": "https://www.11alive.com/article/news/politics/elections/georgia-voting-rules-what-you-need-to-know-before-election-day/85-f224593a-f266-4d3b-a7ec-3cc5433f2299",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "This statewide voter guide lists acceptable government-issued photo IDs for in-person voting and explains that Election Day voters must use assigned precincts. It also states that early voters may use any early-voting site in their county during Oct. 13–30, which applies to GA-10 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0ono5oq",
+        "headline": "Secretary of State's Office investigating whether Georgia House candidate voted in 2 state primaries",
+        "sourceName": "CBS News Atlanta",
+        "url": "https://www.cbsnews.com/atlanta/news/secretary-of-states-office-investigating-whether-georgia-house-candidate-voted-in-2-state-primaries/",
+        "publishedAt": "2026-09-24",
+        "relevanceSummary": "Georgia’s Secretary of State opened an investigation into whether a state House candidate cast ballots in two states’ primaries. The statewide election-integrity investigation is relevant to GA-10 voters because it concerns Georgia election-law enforcement and candidate eligibility procedures.",
+        "tag": "legal",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-23-ga10-auto",
-      "startedAt": "2026-09-23T09:08:46.602Z",
-      "completedAt": "2026-09-23T09:09:43.697Z",
+      "id": "run-2026-09-30-ga10-auto",
+      "startedAt": "2026-09-30T10:15:11.949Z",
+      "completedAt": "2026-09-30T10:15:55.901Z",
       "triggerType": "scheduled",
       "sourcesChecked": 11,
-      "updatesCreated": 6,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-23 for GA-10. Sources checked: 11. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-30 for GA-10. Sources checked: 11. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-30T09:09:43.697Z",
+    "NEXT_REFRESH_AT": "2026-10-07T10:15:55.901Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
