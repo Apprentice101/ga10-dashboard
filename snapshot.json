@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-30",
-  "updatedAt": "2026-09-30T10:15:55.901Z",
-  "exportedAt": "2026-09-30T10:36:55.808Z",
+  "dataAsOf": "2026-10-07",
+  "updatedAt": "2026-10-07T10:51:28.302Z",
+  "exportedAt": "2026-10-07T11:12:25.973Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -191,7 +191,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-07-20",
+        "lastVerified": "2026-10-07",
         "confidence": "unconfirmed",
         "notes": "SB 189 (2024) banned QR-code-based ballot tabulation effective July 1, 2026. Superseded for the 2026 cycle by SB 3EX (2026 special session), which delayed the ban to Jan 1, 2028."
       },
@@ -1584,20 +1584,100 @@
         "relevanceSummary": "Georgia’s Secretary of State opened an investigation into whether a state House candidate cast ballots in two states’ primaries. The statewide election-integrity investigation is relevant to GA-10 voters because it concerns Georgia election-law enforcement and candidate eligibility procedures.",
         "tag": "legal",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-019fg6x",
+        "headline": "Georgia Secretary of State urges voters to prepare ahead of November election",
+        "sourceName": "WSPA",
+        "url": "https://www.wspa.com/news/state-news/georgia-secretary-of-state-urges-voters-to-prepare-ahead-of-november-election/",
+        "publishedAt": "2026-10-06",
+        "relevanceSummary": "The Secretary of State’s office says Georgia’s early-voting period runs October 13–30 and that absentee-ballot requests are due October 23. It also confirms that absentee ballots may be returned by mail or through an authorized drop box, rules that apply to GA-10 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0qvazg8",
+        "headline": "Today is the last day to register to vote in Georgia’s 2026 midterms",
+        "sourceName": "Atlanta News First",
+        "url": "https://www.atlantanewsfirst.com/2026/10/05/today-is-last-day-register-vote-georgias-2026-midterms/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "The article identifies October 5 as Georgia’s registration deadline and explains online and mail registration options. Online registration requires a valid Georgia driver’s license or state ID, which is relevant to eligible GA-10 residents registering for the November election.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-06omsiw",
+        "headline": "Georgia voters will see pen and paper at polls",
+        "sourceName": "Georgia Public Broadcasting",
+        "url": "https://www.gpb.org/news/2026/10/05/georgia-voters-will-see-pen-and-paper-at-polls",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "Georgia poll workers will continue electronic voter check-in while recording voters’ names on a backup paper log. The statewide administrative procedure is relevant to voters in GA-10 because it affects polling-place operations and election records.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0g80c6i",
+        "headline": "What to know about voter registration in Georgia",
+        "sourceName": "Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/10/what-to-know-about-registering-to-vote-in-georgia/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "Georgia’s registration deadline was October 5, and early voting runs October 13–30. The article explains that voters may vote early at any site in their county, must use their assigned polling place on Election Day, and may return absentee ballots by mail, county-office delivery, or official drop box.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0kdq8g1",
+        "headline": "Mail-in voting is still an option for this year's midterms. Here's what voters should know",
+        "sourceName": "Grice Connect",
+        "url": "https://www.griceconnect.com/amp/local-news/mail-in-voting-is-still-an-option-for-this-years-midterms-heres-what-voters-should-know-12834124",
+        "publishedAt": "2026-10-04",
+        "relevanceSummary": "Georgia does not automatically send absentee ballots; voters must submit an application. The article says absentee ballots must be signed and include a Georgia driver’s-license number or a copy of another acceptable photo ID, directly informing GA-10 voters using mail ballots.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0vjavhp",
+        "headline": "GA Voter Guide 2026: Governor, Ossoff's Senate Seat Among Key Races",
+        "sourceName": "Patch",
+        "url": "https://patch.com/georgia/atlanta/ga-voter-guide-2026-governor-ossoffs-senate-seat-among-key-races",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The guide summarizes Georgia’s registration, early-voting, absentee-request, and ballot-return deadlines. It also lists accepted photo IDs, including Georgia driver’s licenses, Georgia public-college student IDs, government employee IDs, passports, military IDs, and tribal IDs, making the statewide voter-ID information relevant to GA-10 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0oxfnhg",
+        "headline": "Georgia's 2026 midterm election: The major races and ...",
+        "sourceName": "FOX 5 Atlanta",
+        "url": "https://www.fox5atlanta.com/news/draft-georgias-2026-midterm-election-major-races-candidates",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The guide lists Georgia’s key procedural dates: early voting October 13–30, mandatory Saturday voting October 17 and 24, absentee-request deadline October 23, and Election Day polling hours of 7 a.m.–7 p.m. It also explains countywide early-voting access and assigned polling places on Election Day.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0nk1hsm",
+        "headline": "First Day Registrars May Mail Absentee Ballots for General Election",
+        "sourceName": "Georgia.gov",
+        "url": "https://georgia.gov/events/2026-10-05/first-day-registrars-may-mail-absentee-ballots-general-election",
+        "publishedAt": "2026-09-30",
+        "relevanceSummary": "Georgia.gov states that completed absentee ballots must reach the county elections office by 7 p.m. on November 3. It explains that drop boxes are inside early-voting sites and accessible only during early-voting hours, and reiterates the requirement to provide a driver’s-license or state-ID number or an acceptable ID copy on the application and ballot envelope.",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-30-ga10-auto",
-      "startedAt": "2026-09-30T10:15:11.949Z",
-      "completedAt": "2026-09-30T10:15:55.901Z",
+      "id": "run-2026-10-07-ga10-auto",
+      "startedAt": "2026-10-07T10:50:42.232Z",
+      "completedAt": "2026-10-07T10:51:28.302Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 11,
+      "sourcesChecked": 12,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-30 for GA-10. Sources checked: 11. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-07 for GA-10. Sources checked: 12. LLM verifications: 9. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-07T10:15:55.901Z",
+    "NEXT_REFRESH_AT": "2026-10-14T10:51:28.302Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
