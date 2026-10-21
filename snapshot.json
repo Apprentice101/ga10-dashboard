@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-14",
-  "updatedAt": "2026-10-14T09:15:44.441Z",
-  "exportedAt": "2026-10-14T09:32:05.846Z",
+  "dataAsOf": "2026-10-21",
+  "updatedAt": "2026-10-21T09:06:48.168Z",
+  "exportedAt": "2026-10-21T09:21:57.008Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -1744,20 +1744,60 @@
         "relevanceSummary": "Georgia early voting runs Oct. 13–30, and GA-10 voters may use any early-voting site in their county but must use their assigned precinct on Election Day. The article also explains acceptable ID, absentee-ballot return options, the Oct. 23 absentee-request deadline, and the Secretary of State’s My Voter Page.",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0xejbns",
+        "headline": "U.S. Attorney's Office Announces Election Integrity Plan for 2026 General Election and Early Voting",
+        "sourceName": "U.S. Department of Justice",
+        "url": "https://www.justice.gov/usao-sdga/pr/us-attorneys-office-announces-election-integrity-plan-2026-general-election-and-early",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "The federal plan states that Georgia early in-person and absentee-by-mail voting will proceed under standard state protocols. It also describes monitoring for Voting Rights Act compliance and unobstructed access to drop boxes and polling locations.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0ilt43i",
+        "headline": "Never voted in Georgia? Here's what you need to know before Nov. 3",
+        "sourceName": "The Courier-Herald",
+        "url": "https://courierheraldtoday.com/never-voted-in-georgia-heres-what-you-need-to-know-before-nov-3/",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "The statewide voter guide covers early voting, Election Day polling, absentee-ballot request and receipt deadlines, and Georgia's in-person photo-ID requirement. These procedures apply directly to GA-10 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0kvsnel",
+        "headline": "Absentee ballot requests close Oct. 23",
+        "sourceName": "The Red & Black",
+        "url": "https://www.redandblack.com/athensnews/absentee-ballot-requests-close-oct-23/article_7548dd7d-ea41-4a28-9417-e23baaab53c7.html",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "Athens-Clarke County voters must submit absentee-ballot applications by Oct. 23 for the Nov. 3 election. The article explains application requirements, acceptable identification, drop-box availability, and the 7 p.m. Election Day receipt deadline.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0af7d6n",
+        "headline": "Georgia voters are seeing a new check-in step at polls this cycle",
+        "sourceName": "Georgia Public Broadcasting",
+        "url": "https://www.gpb.org/news/2026/10/16/georgia-voters-are-seeing-new-check-in-step-at-polls-cycle",
+        "publishedAt": "2026-10-16",
+        "relevanceSummary": "Georgia polling places are implementing a State Election Board rule requiring a written numbered list of voters who receive ballots. The list records voter names but not how they vote, and implementation details may vary by county.",
+        "tag": "rule-change",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-14-ga10-auto",
-      "startedAt": "2026-10-14T09:15:12.553Z",
-      "completedAt": "2026-10-14T09:15:44.441Z",
+      "id": "run-2026-10-21-ga10-auto",
+      "startedAt": "2026-10-21T09:06:18.628Z",
+      "completedAt": "2026-10-21T09:06:48.168Z",
       "triggerType": "scheduled",
       "sourcesChecked": 11,
-      "updatesCreated": 8,
+      "updatesCreated": 4,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-14 for GA-10. Sources checked: 11. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-21 for GA-10. Sources checked: 11. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-21T09:15:44.441Z",
+    "NEXT_REFRESH_AT": "2026-10-28T09:06:48.168Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
