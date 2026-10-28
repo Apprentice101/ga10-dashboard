@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-21",
-  "updatedAt": "2026-10-21T09:06:48.168Z",
-  "exportedAt": "2026-10-21T09:21:57.008Z",
+  "dataAsOf": "2026-10-28",
+  "updatedAt": "2026-10-28T10:18:20.991Z",
+  "exportedAt": "2026-10-28T10:23:54.041Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -76,7 +76,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -89,7 +89,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "unconfirmed",
         "notes": "Confirms Nov 3, 2026 general, Oct 5 registration deadline, Oct 13-30 early voting window, and Dec 1 runoff contingency."
       },
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -243,7 +243,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-10-28",
         "confidence": "unconfirmed",
         "notes": "State certification deadline: 5 PM on the 17th day following the election (Nov 20, 2026 for Nov 3 general). Independent legal analysis; NEEDS REVIEW against the live O.C.G.A. text."
       },
@@ -1784,20 +1784,100 @@
         "relevanceSummary": "Georgia polling places are implementing a State Election Board rule requiring a written numbered list of voters who receive ballots. The list records voter names but not how they vote, and implementation details may vary by county.",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0q66ah7",
+        "headline": "Nearly 3,000 voters in key Georgia county haven’t received mail ballots yet, dangerously close to Election Day deadline",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/nearly-3000-voters-in-key-georgia-county-havent-received-mail-ballots-yet-dangerously-close-to-election-day-deadline/?ref=theamericanroulette.com",
+        "publishedAt": "2026-10-28",
+        "relevanceSummary": "A Georgia county mail-ballot delay could affect voters shortly before Election Day; during early voting, state law requires the county to issue requested ballots, rejections, or provisional ballots within three days.[5]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0et8xf5",
+        "headline": "Absentee ballot delays could impact 10000 voters in three metro Atlanta counties",
+        "sourceName": "WSB Radio",
+        "url": "https://www.wsbradio.com/news/local/absentee-ballot-delays-could-impact-10000-voters-three-metro-atlanta-counties/A4K4NR2BYVD4TEDQ5CIMCFKVAM/?outputType=amp",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "The report explains options for Georgia voters affected by delayed absentee ballots: canceling the ballot and voting in person, or returning the completed ballot to the county by 7 p.m. on Election Day.[8]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-02m1fm7",
+        "headline": "Georgia voting rules: How ballots are cast and counted across the state",
+        "sourceName": "FOX 5 Atlanta",
+        "url": "https://www.fox5atlanta.com/news/georgia-voting-rules-how-ballots-cast-counted-across-state",
+        "publishedAt": "2026-10-25",
+        "relevanceSummary": "This statewide procedural guide covers advance voting, absentee voting by mail or drop box, Election Day polling hours, ID numbers or approved ID copies for absentee applications, and acceptable photo ID for in-person voting.[6]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0jibjoh",
+        "headline": "Voting for the first time in Georgia? Here is what to know",
+        "sourceName": "Yahoo News",
+        "url": "https://www.yahoo.com/news/politics/articles/voting-first-time-georgia-know-035256661.html",
+        "publishedAt": "2026-10-25",
+        "relevanceSummary": "The statewide guide explains Georgia’s voting process, Election Day hours, early-voting flexibility within a voter’s county, acceptable photo IDs, and the three-day period to resolve eligibility issues after a provisional ballot.[4]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0nm44pj",
+        "headline": "DOJ to send monitors to 6 Georgia counties with Democratic majorities",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/10/georgia-democratic-counties-monitor-elections/",
+        "publishedAt": "2026-10-24",
+        "relevanceSummary": "The Justice Department notified six Georgia counties that federal election monitors would be sent to observe election administration, a statewide legal and oversight development relevant to Georgia voters even though GA-10 is not specifically named.[9]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0qx34rq",
+        "headline": "Mail voting plummets in Georgia as early voting turnout ...",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/10/mail-voting-plummets-georgia/",
+        "publishedAt": "2026-10-23",
+        "relevanceSummary": "The article discusses Georgia’s current absentee-voting procedures, including statutory limits on ballot drop boxes and identification requirements that apply statewide, including to GA-10 voters.[7]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0so3cw3",
+        "headline": "Final day to request mail ballot for midterms in Georgia",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/10/mail-ballot-request-deadline/",
+        "publishedAt": "2026-10-23",
+        "relevanceSummary": "Georgia voters can request absentee ballots through their county elections office, return ballots by mail, in person, or through an official drop box, and use the Secretary of State’s My Voter Page to check ballot and polling information.[2]",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga10-0tfsbk3",
+        "headline": "Mail deadline is here as 1.29M Ga. voters cast ballots early so far",
+        "sourceName": "WRDW",
+        "url": "https://www.wrdw.com/2026/10/22/mail-deadline-is-here-129m-ga-voters-cast-ballots-early-so-far/",
+        "publishedAt": "2026-10-22",
+        "relevanceSummary": "Georgia voters faced the absentee-ballot application deadline, while completed ballots had to reach county registrars by 7 p.m. on Election Day. The article also explains official drop-box, county-office, USPS, and My Voter Page options.[3]",
+        "tag": "deadline",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-21-ga10-auto",
-      "startedAt": "2026-10-21T09:06:18.628Z",
-      "completedAt": "2026-10-21T09:06:48.168Z",
+      "id": "run-2026-10-28-ga10-auto",
+      "startedAt": "2026-10-28T10:17:46.361Z",
+      "completedAt": "2026-10-28T10:18:20.991Z",
       "triggerType": "scheduled",
       "sourcesChecked": 11,
-      "updatesCreated": 4,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-21 for GA-10. Sources checked: 11. LLM verifications: 8. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-28 for GA-10. Sources checked: 11. LLM verifications: 8. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-28T09:06:48.168Z",
+    "NEXT_REFRESH_AT": "2026-11-04T10:18:20.991Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
