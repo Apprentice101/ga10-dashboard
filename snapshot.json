@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-11-04",
-  "updatedAt": "2026-11-04T11:46:31.172Z",
-  "exportedAt": "2026-11-04T11:49:56.737Z",
+  "dataAsOf": "2026-11-11",
+  "updatedAt": "2026-11-11T11:37:24.459Z",
+  "exportedAt": "2026-11-11T11:43:19.848Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-11-04",
+        "lastVerified": "2026-11-11",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-11-04",
+        "lastVerified": "2026-11-11",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -217,7 +217,7 @@
         "sourceType": "news",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-11",
         "confidence": "high",
         "notes": "Neutral summary of SB 3EX passage and enactment. Confirms House 94-79 and Senate 36-16 votes, signing date, and details of the automatic-hand-recount provision (top-2 statewide races decided by <0.5%). Georgia becomes 29th state with an automatic-recount trigger."
       },
@@ -1867,17 +1867,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-11-04-ga10-auto",
-      "startedAt": "2026-11-04T11:46:29.690Z",
-      "completedAt": "2026-11-04T11:46:31.172Z",
+      "id": "run-2026-11-11-ga10-auto",
+      "startedAt": "2026-11-11T11:37:21.757Z",
+      "completedAt": "2026-11-11T11:37:24.459Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
+      "sourcesChecked": 13,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-11-04 for GA-10. Sources checked: 14. LLM verifications: 10. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-11-11 for GA-10. Sources checked: 13. LLM verifications: 9. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-11-11T11:46:31.172Z",
+    "NEXT_REFRESH_AT": "2026-11-18T11:37:24.459Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
