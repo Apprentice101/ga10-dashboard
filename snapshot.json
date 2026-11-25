@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-11-18",
-  "updatedAt": "2026-11-18T12:33:17.850Z",
-  "exportedAt": "2026-11-18T12:40:52.934Z",
+  "dataAsOf": "2026-11-25",
+  "updatedAt": "2026-11-25T13:45:37.949Z",
+  "exportedAt": "2026-11-25T13:49:26.255Z",
   "districtCode": "GA-10",
   "data": {
     "DISTRICT": {
@@ -165,7 +165,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-11-11",
+        "lastVerified": "2026-11-25",
         "confidence": "unconfirmed",
         "notes": "Official 2023 court-ordered congressional-map plan documents. The 2023 redraw moved Jackson County out of GA-10 and moved Franklin and Hart counties into GA-10."
       },
@@ -178,7 +178,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-11-11",
+        "lastVerified": "2026-11-25",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions (one per ~100k registered voters, indoor only, early-voting sites only), and wrong-precinct provisional ballot rule."
       },
@@ -191,7 +191,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-20",
-        "lastVerified": "2026-11-04",
+        "lastVerified": "2026-11-25",
         "confidence": "unconfirmed",
         "notes": "SB 189 (2024) banned QR-code-based ballot tabulation effective July 1, 2026. Superseded for the 2026 cycle by SB 3EX (2026 special session), which delayed the ban to Jan 1, 2028."
       },
@@ -1867,17 +1867,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-11-18-ga10-auto",
-      "startedAt": "2026-11-18T12:32:22.512Z",
-      "completedAt": "2026-11-18T12:33:17.850Z",
+      "id": "run-2026-11-25-ga10-auto",
+      "startedAt": "2026-11-25T13:45:35.276Z",
+      "completedAt": "2026-11-25T13:45:37.949Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
+      "sourcesChecked": 14,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-11-18 for GA-10. Sources checked: 15. LLM verifications: 15. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-11-25 for GA-10. Sources checked: 14. LLM verifications: 10. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-11-25T12:33:17.850Z",
+    "NEXT_REFRESH_AT": "2026-12-02T13:45:37.949Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga10-2026-w30",
       "periodStart": "2026-07-20",
